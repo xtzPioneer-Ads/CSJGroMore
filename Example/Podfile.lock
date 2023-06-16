@@ -1,0 +1,131 @@
+PODS:
+  - Ads-CN (5.3.0.4):
+    - Ads-CN/BUAdSDK (= 5.3.0.4)
+  - Ads-CN/BUAdSDK (5.3.0.4):
+    - BURelyFoundation/CSJ (= 0.3.0.3)
+  - BaiduMobAdSDK (5.301)
+  - BURelyFoundation (0.3.0.3):
+    - BURelyFoundation/GM (= 0.3.0.3)
+  - BURelyFoundation/AFNetworking (0.3.0.3)
+  - BURelyFoundation/BURelyFoundation (0.3.0.3)
+  - BURelyFoundation/CSJ (0.3.0.3):
+    - BURelyFoundation/BURelyFoundation
+    - BURelyFoundation/HM
+    - BURelyFoundation/NETWork
+  - BURelyFoundation/GM (0.3.0.3):
+    - BURelyFoundation/BURelyFoundation
+    - BURelyFoundation/HM
+    - BURelyFoundation/NETWork
+  - BURelyFoundation/HM (0.3.0.3)
+  - BURelyFoundation/NETWork (0.3.0.3):
+    - BURelyFoundation/AFNetworking
+  - CSJGroMore (4.2.0.3):
+    - CSJGroMore/ABUAdBaiduAdapter (= 4.2.0.3)
+    - CSJGroMore/ABUAdCsjAdapter (= 4.2.0.3)
+    - CSJGroMore/ABUAdGdtAdapter (= 4.2.0.3)
+    - CSJGroMore/ABUAdKsAdapter (= 4.2.0.3)
+    - CSJGroMore/ABUVisualDebug (= 4.2.0.3)
+    - MintegralAdSDK (~> 7.3.8)
+  - CSJGroMore/ABUAdBaiduAdapter (4.2.0.3):
+    - BaiduMobAdSDK (~> 5.301)
+    - BURelyFoundation
+    - CSJGroMore/Ads-Mediation-CN
+    - MintegralAdSDK (~> 7.3.8)
+  - CSJGroMore/ABUAdCsjAdapter (4.2.0.3):
+    - Ads-CN (~> 5.3.0.4)
+    - BURelyFoundation
+    - CSJGroMore/Ads-Mediation-CN
+    - MintegralAdSDK (~> 7.3.8)
+  - CSJGroMore/ABUAdGdtAdapter (4.2.0.3):
+    - BURelyFoundation
+    - CSJGroMore/Ads-Mediation-CN
+    - GDTMobSDK (~> 4.14.30)
+    - MintegralAdSDK (~> 7.3.8)
+  - CSJGroMore/ABUAdKsAdapter (4.2.0.3):
+    - BURelyFoundation
+    - CSJGroMore/Ads-Mediation-CN
+    - KSAdSDK (~> 3.3.46)
+    - MintegralAdSDK (~> 7.3.8)
+  - CSJGroMore/ABUVisualDebug (4.2.0.3):
+    - BURelyFoundation
+    - CSJGroMore/Ads-Mediation-CN
+    - MintegralAdSDK (~> 7.3.8)
+  - CSJGroMore/Ads-Mediation-CN (4.2.0.3):
+    - BURelyFoundation
+    - MintegralAdSDK (~> 7.3.8)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GDTMobSDK (4.14.30):
+    - GDTMobSDK/GDTMobSDK (= 4.14.30)
+  - GDTMobSDK/GDTMobSDK (4.14.30)
+  - KSAdSDK (3.3.46)
+  - MintegralAdSDK (7.3.8):
+    - MintegralAdSDK/BannerAd (= 7.3.8)
+    - MintegralAdSDK/BidBannerAd (= 7.3.8)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 7.3.8)
+    - MintegralAdSDK/BidNativeAd (= 7.3.8)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.3.8)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.3.8)
+    - MintegralAdSDK/InterstitialVideoAd (= 7.3.8)
+    - MintegralAdSDK/NativeAd (= 7.3.8)
+    - MintegralAdSDK/NewInterstitialAd (= 7.3.8)
+    - MintegralAdSDK/RewardVideoAd (= 7.3.8)
+  - MintegralAdSDK/BannerAd (7.3.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.3.8):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidInterstitialVideoAd (7.3.8):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/BidNativeAd (7.3.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.3.8):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.3.8):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/InterstitialVideoAd (7.3.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.3.8)
+  - MintegralAdSDK/NewInterstitialAd (7.3.8):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.3.8):
+    - MintegralAdSDK/NativeAd
+
+DEPENDENCIES:
+  - CSJGroMore (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Ads-CN
+    - BaiduMobAdSDK
+    - BURelyFoundation
+    - FBSnapshotTestCase
+    - GDTMobSDK
+    - KSAdSDK
+    - MintegralAdSDK
+
+EXTERNAL SOURCES:
+  CSJGroMore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ads-CN: b87c8df100e37fbfd12feca669c6486d788ea7ad
+  BaiduMobAdSDK: bb64abc1b5104134d4a0fcd2ff223e688c5aa372
+  BURelyFoundation: 7de2625b5c23a689b82ce9820f9231dcd1f8f739
+  CSJGroMore: a89c051fb190a12bfd5e1386c224482b41f63018
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GDTMobSDK: 4cae52817d881c26f7a656fba439a0792d695933
+  KSAdSDK: 7c446292799bc20da008fc807309068c6d7ab111
+  MintegralAdSDK: 3b8edca477aecef338e484235090a61578795c07
+
+PODFILE CHECKSUM: 9bbf664268619ffe2d1aa6fcf7d4fc04a5a489fe
+
+COCOAPODS: 1.12.1
