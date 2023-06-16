@@ -1,0 +1,1560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121F7A535F4B4B01A3F81861 /* Pods_ABUAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA20085B5C3E8586EA4B6B /* Pods_ABUAdDemo.framework */; };
+		2B05BB2127B4FA170018AE56 /* GroMoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */; };
+		2B05BB2E27B5087C0018AE56 /* GMMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2527B5087C0018AE56 /* GMMethod.m */; };
+		2B05BB2F27B5087C0018AE56 /* UIViewController+GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2627B5087C0018AE56 /* UIViewController+GMLog.m */; };
+		2B05BB3027B5087C0018AE56 /* GMFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2827B5087C0018AE56 /* GMFunction.m */; };
+		2B05BB3127B5087C0018AE56 /* GMLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2A27B5087C0018AE56 /* GMLogManager.m */; };
+		2B05BB3527B515360018AE56 /* GromoreAdLoadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB3427B515360018AE56 /* GromoreAdLoadParam.m */; };
+		2B05BB3827B516460018AE56 /* GromoreAdLoadConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB3727B516460018AE56 /* GromoreAdLoadConfig.m */; };
+		2B05BB4127B5333D0018AE56 /* GromoreDemoController+BannerAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4027B5333D0018AE56 /* GromoreDemoController+BannerAd.m */; };
+		2B05BB4427B533790018AE56 /* GromoreDemoController+InterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4327B533790018AE56 /* GromoreDemoController+InterstitialAd.m */; };
+		2B05BB4727B634C20018AE56 /* GromoreDemoAdConsoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4627B634C20018AE56 /* GromoreDemoAdConsoleView.m */; };
+		2B05BB4B27B63BF70018AE56 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4927B63BF70018AE56 /* fishhook.c */; };
+		2B05BB4E27B658220018AE56 /* GromoreDemoController+NativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4D27B658220018AE56 /* GromoreDemoController+NativeAd.m */; };
+		2B05BB5227B66CF20018AE56 /* ABUNativeAdView+CustomRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5127B66CF20018AE56 /* ABUNativeAdView+CustomRender.m */; };
+		2B05BB5527BB9DB00018AE56 /* GromoreDemoAdDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5427BB9DB00018AE56 /* GromoreDemoAdDisplayView.m */; };
+		2B05BB5827BBA36E0018AE56 /* GromoreDemoDeviceInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5727BBA36E0018AE56 /* GromoreDemoDeviceInfoView.m */; };
+		2B05BB5B27BBB8510018AE56 /* GromoreDemoController+GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5A27BBB8510018AE56 /* GromoreDemoController+GMLog.m */; };
+		2B287D42282CE1D90062F00F /* config-ios-5000546.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B287D41282CE1D90062F00F /* config-ios-5000546.json */; };
+		2B3E304A29348857004AB5CA /* ABUDCustomNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E301D29348857004AB5CA /* ABUDCustomNativeAdapter.m */; };
+		2B3E304B29348857004AB5CA /* ABUDCustomNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E301D29348857004AB5CA /* ABUDCustomNativeAdapter.m */; };
+		2B3E304C29348858004AB5CA /* ABUDCustomDrawAdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E301E29348857004AB5CA /* ABUDCustomDrawAdHelper.m */; };
+		2B3E304D29348858004AB5CA /* ABUDCustomDrawAdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E301E29348857004AB5CA /* ABUDCustomDrawAdHelper.m */; };
+		2B3E304E29348858004AB5CA /* ABUDCustomSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302229348857004AB5CA /* ABUDCustomSplashView.m */; };
+		2B3E304F29348858004AB5CA /* ABUDCustomSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302229348857004AB5CA /* ABUDCustomSplashView.m */; };
+		2B3E305029348858004AB5CA /* ABUDStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302329348857004AB5CA /* ABUDStoreViewController.m */; };
+		2B3E305129348858004AB5CA /* ABUDStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302329348857004AB5CA /* ABUDStoreViewController.m */; };
+		2B3E305229348858004AB5CA /* ABUDCustomFullscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302529348857004AB5CA /* ABUDCustomFullscreenView.m */; };
+		2B3E305329348858004AB5CA /* ABUDCustomFullscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302529348857004AB5CA /* ABUDCustomFullscreenView.m */; };
+		2B3E305429348858004AB5CA /* ABUDCustomNativeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302829348857004AB5CA /* ABUDCustomNativeData.m */; };
+		2B3E305529348858004AB5CA /* ABUDCustomNativeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302829348857004AB5CA /* ABUDCustomNativeData.m */; };
+		2B3E305629348858004AB5CA /* ABUDCustomNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302A29348857004AB5CA /* ABUDCustomNativeView.m */; };
+		2B3E305729348858004AB5CA /* ABUDCustomNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302A29348857004AB5CA /* ABUDCustomNativeView.m */; };
+		2B3E305829348858004AB5CA /* ABUDCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302D29348857004AB5CA /* ABUDCustomBannerView.m */; };
+		2B3E305929348858004AB5CA /* ABUDCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302D29348857004AB5CA /* ABUDCustomBannerView.m */; };
+		2B3E305A29348858004AB5CA /* ABUDCustomDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302E29348857004AB5CA /* ABUDCustomDrawView.m */; };
+		2B3E305B29348858004AB5CA /* ABUDCustomDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302E29348857004AB5CA /* ABUDCustomDrawView.m */; };
+		2B3E305C29348858004AB5CA /* ABUDCustomDrawData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302F29348857004AB5CA /* ABUDCustomDrawData.m */; };
+		2B3E305D29348858004AB5CA /* ABUDCustomDrawData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E302F29348857004AB5CA /* ABUDCustomDrawData.m */; };
+		2B3E305E29348858004AB5CA /* ABUDCustomExpressNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303029348857004AB5CA /* ABUDCustomExpressNativeView.m */; };
+		2B3E305F29348858004AB5CA /* ABUDCustomExpressNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303029348857004AB5CA /* ABUDCustomExpressNativeView.m */; };
+		2B3E306029348858004AB5CA /* ABUDCustomInterstitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303229348857004AB5CA /* ABUDCustomInterstitialView.m */; };
+		2B3E306129348858004AB5CA /* ABUDCustomInterstitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303229348857004AB5CA /* ABUDCustomInterstitialView.m */; };
+		2B3E306229348858004AB5CA /* ABUDCustomExpressDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303529348857004AB5CA /* ABUDCustomExpressDrawView.m */; };
+		2B3E306329348858004AB5CA /* ABUDCustomExpressDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303529348857004AB5CA /* ABUDCustomExpressDrawView.m */; };
+		2B3E306429348858004AB5CA /* ABUDCustomRewardedVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303729348857004AB5CA /* ABUDCustomRewardedVideoView.m */; };
+		2B3E306529348858004AB5CA /* ABUDCustomRewardedVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303729348857004AB5CA /* ABUDCustomRewardedVideoView.m */; };
+		2B3E306629348858004AB5CA /* ABUDCustomConfigAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303829348857004AB5CA /* ABUDCustomConfigAdapter.m */; };
+		2B3E306729348858004AB5CA /* ABUDCustomConfigAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303829348857004AB5CA /* ABUDCustomConfigAdapter.m */; };
+		2B3E306829348858004AB5CA /* ABUDCustomNativeAdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303929348857004AB5CA /* ABUDCustomNativeAdHelper.m */; };
+		2B3E306929348858004AB5CA /* ABUDCustomNativeAdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303929348857004AB5CA /* ABUDCustomNativeAdHelper.m */; };
+		2B3E306A29348858004AB5CA /* ABUDCustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303A29348857004AB5CA /* ABUDCustomBannerAdapter.m */; };
+		2B3E306B29348858004AB5CA /* ABUDCustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303A29348857004AB5CA /* ABUDCustomBannerAdapter.m */; };
+		2B3E306C29348858004AB5CA /* ABUDCustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303B29348857004AB5CA /* ABUDCustomSplashAdapter.m */; };
+		2B3E306D29348858004AB5CA /* ABUDCustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303B29348857004AB5CA /* ABUDCustomSplashAdapter.m */; };
+		2B3E306E29348858004AB5CA /* ABUDCustomRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303C29348857004AB5CA /* ABUDCustomRewardedVideoAdapter.m */; };
+		2B3E306F29348858004AB5CA /* ABUDCustomRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303C29348857004AB5CA /* ABUDCustomRewardedVideoAdapter.m */; };
+		2B3E307029348858004AB5CA /* ABUDCustomInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303E29348857004AB5CA /* ABUDCustomInterstitialAdapter.m */; };
+		2B3E307129348858004AB5CA /* ABUDCustomInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E303E29348857004AB5CA /* ABUDCustomInterstitialAdapter.m */; };
+		2B3E307229348858004AB5CA /* ABUDCustomDrawAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E304629348857004AB5CA /* ABUDCustomDrawAdapter.m */; };
+		2B3E307329348858004AB5CA /* ABUDCustomDrawAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E304629348857004AB5CA /* ABUDCustomDrawAdapter.m */; };
+		2B3E307429348858004AB5CA /* ABUDCustomFullscreenVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E304829348857004AB5CA /* ABUDCustomFullscreenVideoAdapter.m */; };
+		2B3E307529348858004AB5CA /* ABUDCustomFullscreenVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E304829348857004AB5CA /* ABUDCustomFullscreenVideoAdapter.m */; };
+		2B91ECF728E2AB9F000BD524 /* UIImageView+GMDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B91ECF528E2AB9F000BD524 /* UIImageView+GMDemo.m */; };
+		2BB3896927D9D26900FF0DCE /* GMInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3896827D9D26800FF0DCE /* GMInvocation.m */; };
+		2BB3896E27D9EFCD00FF0DCE /* GromoreDemoAdConsoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4627B634C20018AE56 /* GromoreDemoAdConsoleView.m */; };
+		2BB3897127D9EFCD00FF0DCE /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4927B63BF70018AE56 /* fishhook.c */; };
+		2BB3897327D9EFCD00FF0DCE /* GromoreDemoAdHandleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C327B3E50B00E8997E /* GromoreDemoAdHandleCell.m */; };
+		2BB3897627D9EFCD00FF0DCE /* GromoreDemoAdBasicInfoSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C927B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.m */; };
+		2BB3897C27D9EFCD00FF0DCE /* GroMoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */; };
+		2BB3898027D9EFCD00FF0DCE /* GMLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2A27B5087C0018AE56 /* GMLogManager.m */; };
+		2BB3898127D9EFCD00FF0DCE /* GromoreDemoAdBasicInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C227B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.m */; };
+		2BB3898327D9EFCD00FF0DCE /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84A25CCF558006E19E6 /* NSString+LocalizedString.m */; };
+		2BB3898527D9EFCD00FF0DCE /* GromoreDemoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7E77227D9AAAD00571995 /* GromoreDemoBanner.swift */; };
+		2BB3898727D9EFCD00FF0DCE /* GromoreDemoController+GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5A27BBB8510018AE56 /* GromoreDemoController+GMLog.m */; };
+		2BB3898D27D9EFCD00FF0DCE /* GMFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2827B5087C0018AE56 /* GMFunction.m */; };
+		2BB3898E27D9EFCD00FF0DCE /* GromoreDemoAdDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5427BB9DB00018AE56 /* GromoreDemoAdDisplayView.m */; };
+		2BB3899027D9EFCD00FF0DCE /* GMMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2527B5087C0018AE56 /* GMMethod.m */; };
+		2BB3899227D9EFCD00FF0DCE /* GromoreAdLoadConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB3727B516460018AE56 /* GromoreAdLoadConfig.m */; };
+		2BB3899627D9EFCD00FF0DCE /* GromoreDemoDeviceInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5727BBA36E0018AE56 /* GromoreDemoDeviceInfoView.m */; };
+		2BB3899927D9EFCD00FF0DCE /* GromoreAdLoadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB3427B515360018AE56 /* GromoreAdLoadParam.m */; };
+		2BB3899D27D9EFCD00FF0DCE /* GromoreDemoAdStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C527B3E50B00E8997E /* GromoreDemoAdStatusCell.m */; };
+		2BB3899E27D9EFCD00FF0DCE /* UIViewController+GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2627B5087C0018AE56 /* UIViewController+GMLog.m */; };
+		2BB3899F27D9EFCD00FF0DCE /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84825CCF558006E19E6 /* UIView+Draw.m */; };
+		2BB389AA27D9EFCD00FF0DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA46D12429B44200707E3E /* main.m */; };
+		2BB389B027D9EFCD00FF0DCE /* GromoreDemoAdCallbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940BC27B3E50B00E8997E /* GromoreDemoAdCallbackCell.m */; };
+		2BB389B127D9EFCD00FF0DCE /* GromoreDemoLoadAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C827B3E50B00E8997E /* GromoreDemoLoadAdView.m */; };
+		2BB389B527D9EFCD00FF0DCE /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84925CCF558006E19E6 /* NSString+Json.m */; };
+		2BB389B627D9EFCD00FF0DCE /* UIView+ABUZoomoutViewDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */; };
+		2BB389B827D9EFCD00FF0DCE /* GMInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3896827D9D26800FF0DCE /* GMInvocation.m */; };
+		2BB389B927D9EFCD00FF0DCE /* GromoreDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940B827B3E50B00E8997E /* GromoreDemoController.m */; };
+		2BB389BB27D9EFCD00FF0DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98663324349AB5009ECDA1 /* UIKit.framework */; };
+		2BB389BC27D9EFCD00FF0DCE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9866112434513F009ECDA1 /* AdSupport.framework */; };
+		2BB389BD27D9EFCD00FF0DCE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661B24345173009ECDA1 /* WebKit.framework */; };
+		2BB389BE27D9EFCD00FF0DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661924345168009ECDA1 /* QuartzCore.framework */; };
+		2BB389BF27D9EFCD00FF0DCE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661524345157009ECDA1 /* libsqlite3.0.tbd */; };
+		2BB389C027D9EFCD00FF0DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661324345148009ECDA1 /* CoreGraphics.framework */; };
+		2BB389C127D9EFCD00FF0DCE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AE2429B75000707E3E /* libz.tbd */; };
+		2BB389C227D9EFCD00FF0DCE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AB2429B66D00707E3E /* CoreMotion.framework */; };
+		2BB389C327D9EFCD00FF0DCE /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47A92429B65B00707E3E /* libresolv.tbd */; };
+		2BB389C427D9EFCD00FF0DCE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47A72429B65400707E3E /* libc++.tbd */; };
+		2BB389C727D9EFCD00FF0DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA46CD2429B44200707E3E /* LaunchScreen.storyboard */; };
+		2BB389C827D9EFCD00FF0DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA46C82429B44100707E3E /* Main.storyboard */; };
+		2BB389C927D9EFCD00FF0DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BBF65925BD39E900097474 /* Assets.xcassets */; };
+		2BB389D727D9F0CE00FF0DCE /* GromoreDemoController+BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB389D627D9F0CE00FF0DCE /* GromoreDemoController+BannerAd.swift */; };
+		2BB389D927DA0B0600FF0DCE /* GromoreDemoController+InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB389D827DA0B0500FF0DCE /* GromoreDemoController+InterstitialAd.swift */; };
+		2BB389DD27DA121200FF0DCE /* GromoreDemoController+RewardedVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB389DC27DA121200FF0DCE /* GromoreDemoController+RewardedVideoAd.swift */; };
+		2BBB3AF12877D79F0044D343 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0105C8B25C3AA6B00D8DBFA /* AppTrackingTransparency.framework */; };
+		2BD5F8EF284F25B500706033 /* GromoreDemoController+FullscreenVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5F8ED284F25B400706033 /* GromoreDemoController+FullscreenVideoAd.swift */; };
+		2BD5F8F0284F25B500706033 /* GromoreDemoController+NativeAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5F8EE284F25B400706033 /* GromoreDemoController+NativeAd.swift */; };
+		2BD5F8F42850B22F00706033 /* GromoreDemoController+SplashAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB389DA27DA0FD500FF0DCE /* GromoreDemoController+SplashAd.swift */; };
+		2BD5F8F628519AF200706033 /* GromoreDemoController+InterstitialProAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5F8F528519AF200706033 /* GromoreDemoController+InterstitialProAd.swift */; };
+		2BD5F8F72851A29800706033 /* GromoreDemoController+NativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB4D27B658220018AE56 /* GromoreDemoController+NativeAd.m */; };
+		2BD5F8F82851C39100706033 /* ABUNativeAdView+CustomRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB5127B66CF20018AE56 /* ABUNativeAdView+CustomRender.m */; };
+		2BD5F8FA2851C42700706033 /* GromoreDemoController+DrawAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5F8F92851C42700706033 /* GromoreDemoController+DrawAd.swift */; };
+		2BD5F8FB2851C4B700706033 /* ABUDrawAdView+CustomRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */; };
+		2BE7E77A27DF45E700571995 /* ABURitInfo+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7E77927DF45E700571995 /* ABURitInfo+Demo.m */; };
+		2BE7E77B27DF45E700571995 /* ABURitInfo+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7E77927DF45E700571995 /* ABURitInfo+Demo.m */; };
+		2BE940CB27B3E50B00E8997E /* GromoreDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940B827B3E50B00E8997E /* GromoreDemoController.m */; };
+		2BE940CC27B3E50B00E8997E /* GromoreDemoAdCallbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940BC27B3E50B00E8997E /* GromoreDemoAdCallbackCell.m */; };
+		2BE940CE27B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C227B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.m */; };
+		2BE940CF27B3E50B00E8997E /* GromoreDemoAdHandleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C327B3E50B00E8997E /* GromoreDemoAdHandleCell.m */; };
+		2BE940D027B3E50B00E8997E /* GromoreDemoAdStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C527B3E50B00E8997E /* GromoreDemoAdStatusCell.m */; };
+		2BE940D227B3E50B00E8997E /* GromoreDemoLoadAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C827B3E50B00E8997E /* GromoreDemoLoadAdView.m */; };
+		2BE940D327B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940C927B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.m */; };
+		2BE940D927BA2AAF00E8997E /* GromoreDemoController+SplashAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940D827BA2AAF00E8997E /* GromoreDemoController+SplashAd.m */; };
+		2BE940DC27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940DB27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.m */; };
+		2BE940DF27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940DE27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.m */; };
+		2BE940E227BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940E127BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m */; };
+		2BEB4D68281145A0005ED133 /* GromoreDemoController+DrawAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB4D67281145A0005ED133 /* GromoreDemoController+DrawAd.m */; };
+		2BF4054528C0AC0B00238912 /* libboringssl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF4054428C0ABC800238912 /* libboringssl.tbd */; };
+		7F9866122434513F009ECDA1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9866112434513F009ECDA1 /* AdSupport.framework */; };
+		7F98661424345148009ECDA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661324345148009ECDA1 /* CoreGraphics.framework */; };
+		7F98661624345157009ECDA1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661524345157009ECDA1 /* libsqlite3.0.tbd */; };
+		7F98661A24345168009ECDA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661924345168009ECDA1 /* QuartzCore.framework */; };
+		7F98661C24345173009ECDA1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661B24345173009ECDA1 /* WebKit.framework */; };
+		7F98663724349AB5009ECDA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98663324349AB5009ECDA1 /* UIKit.framework */; };
+		7FFA46CA2429B44100707E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA46C82429B44100707E3E /* Main.storyboard */; };
+		7FFA46CF2429B44200707E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA46CD2429B44200707E3E /* LaunchScreen.storyboard */; };
+		7FFA46D22429B44200707E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA46D12429B44200707E3E /* main.m */; };
+		7FFA47A82429B65400707E3E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47A72429B65400707E3E /* libc++.tbd */; };
+		7FFA47AA2429B65C00707E3E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47A92429B65B00707E3E /* libresolv.tbd */; };
+		7FFA47AC2429B66D00707E3E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AB2429B66D00707E3E /* CoreMotion.framework */; };
+		7FFA47AF2429B75000707E3E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AE2429B75000707E3E /* libz.tbd */; };
+		85FBF16D5B3A96475EECBC67 /* ABUDrawAdView+CustomRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */; };
+		D013C89A25CCF559006E19E6 /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84825CCF558006E19E6 /* UIView+Draw.m */; };
+		D013C89B25CCF559006E19E6 /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84925CCF558006E19E6 /* NSString+Json.m */; };
+		D013C89C25CCF559006E19E6 /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84A25CCF558006E19E6 /* NSString+LocalizedString.m */; };
+		D0BBF65C25BD39E900097474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BBF65925BD39E900097474 /* Assets.xcassets */; };
+		D0D5238D264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */; };
+		EEE494BC768F6A9C96761205 /* Pods_ABUAdDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AE15D0FB80A7BC28C3FED3 /* Pods_ABUAdDemoSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F5CFD6F256FA4860018C2B1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB389CA27D9EFCD00FF0DCE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0896340C6C066C34C83C705A /* Pods-ABUAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		25AE15D0FB80A7BC28C3FED3 /* Pods_ABUAdDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B05BB1F27B4FA170018AE56 /* GroMoreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroMoreAppDelegate.h; sourceTree = "<group>"; };
+		2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroMoreAppDelegate.m; sourceTree = "<group>"; };
+		2B05BB2327B5087C0018AE56 /* GMLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLogViewController.h; sourceTree = "<group>"; };
+		2B05BB2427B5087C0018AE56 /* GMMethodPrepare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMMethodPrepare.h; sourceTree = "<group>"; };
+		2B05BB2527B5087C0018AE56 /* GMMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMMethod.m; sourceTree = "<group>"; };
+		2B05BB2627B5087C0018AE56 /* UIViewController+GMLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GMLog.m"; sourceTree = "<group>"; };
+		2B05BB2727B5087C0018AE56 /* GMLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLogManager.h; sourceTree = "<group>"; };
+		2B05BB2827B5087C0018AE56 /* GMFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFunction.m; sourceTree = "<group>"; };
+		2B05BB2927B5087C0018AE56 /* GMMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMMethod.h; sourceTree = "<group>"; };
+		2B05BB2A27B5087C0018AE56 /* GMLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMLogManager.m; sourceTree = "<group>"; };
+		2B05BB2B27B5087C0018AE56 /* UIViewController+GMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GMLog.h"; sourceTree = "<group>"; };
+		2B05BB2C27B5087C0018AE56 /* GMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLog.h; sourceTree = "<group>"; };
+		2B05BB2D27B5087C0018AE56 /* GMFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFunction.h; sourceTree = "<group>"; };
+		2B05BB3327B515360018AE56 /* GromoreAdLoadParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GromoreAdLoadParam.h; sourceTree = "<group>"; };
+		2B05BB3427B515360018AE56 /* GromoreAdLoadParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GromoreAdLoadParam.m; sourceTree = "<group>"; };
+		2B05BB3627B516460018AE56 /* GromoreAdLoadConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GromoreAdLoadConfig.h; sourceTree = "<group>"; };
+		2B05BB3727B516460018AE56 /* GromoreAdLoadConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GromoreAdLoadConfig.m; sourceTree = "<group>"; };
+		2B05BB3C27B524140018AE56 /* GromoreDemoCustomDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoCustomDefine.h; sourceTree = "<group>"; };
+		2B05BB3F27B5333D0018AE56 /* GromoreDemoController+BannerAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+BannerAd.h"; sourceTree = "<group>"; };
+		2B05BB4027B5333D0018AE56 /* GromoreDemoController+BannerAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+BannerAd.m"; sourceTree = "<group>"; };
+		2B05BB4227B533790018AE56 /* GromoreDemoController+InterstitialAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+InterstitialAd.h"; sourceTree = "<group>"; };
+		2B05BB4327B533790018AE56 /* GromoreDemoController+InterstitialAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+InterstitialAd.m"; sourceTree = "<group>"; };
+		2B05BB4527B634C20018AE56 /* GromoreDemoAdConsoleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdConsoleView.h; sourceTree = "<group>"; };
+		2B05BB4627B634C20018AE56 /* GromoreDemoAdConsoleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdConsoleView.m; sourceTree = "<group>"; };
+		2B05BB4927B63BF70018AE56 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		2B05BB4A27B63BF70018AE56 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		2B05BB4C27B658220018AE56 /* GromoreDemoController+NativeAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+NativeAd.h"; sourceTree = "<group>"; };
+		2B05BB4D27B658220018AE56 /* GromoreDemoController+NativeAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+NativeAd.m"; sourceTree = "<group>"; };
+		2B05BB5027B66CF20018AE56 /* ABUNativeAdView+CustomRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABUNativeAdView+CustomRender.h"; sourceTree = "<group>"; };
+		2B05BB5127B66CF20018AE56 /* ABUNativeAdView+CustomRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ABUNativeAdView+CustomRender.m"; sourceTree = "<group>"; };
+		2B05BB5327BB9DB00018AE56 /* GromoreDemoAdDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdDisplayView.h; sourceTree = "<group>"; };
+		2B05BB5427BB9DB00018AE56 /* GromoreDemoAdDisplayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdDisplayView.m; sourceTree = "<group>"; };
+		2B05BB5627BBA36E0018AE56 /* GromoreDemoDeviceInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GromoreDemoDeviceInfoView.h; sourceTree = "<group>"; };
+		2B05BB5727BBA36E0018AE56 /* GromoreDemoDeviceInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoDeviceInfoView.m; sourceTree = "<group>"; };
+		2B05BB5927BBB8510018AE56 /* GromoreDemoController+GMLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+GMLog.h"; sourceTree = "<group>"; };
+		2B05BB5A27BBB8510018AE56 /* GromoreDemoController+GMLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+GMLog.m"; sourceTree = "<group>"; };
+		2B156BE027FEC27D0071244C /* ABUDDrawAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABUDDrawAdViewController.h; sourceTree = "<group>"; };
+		2B156BE127FEC27D0071244C /* ABUDDrawAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABUDDrawAdViewController.m; sourceTree = "<group>"; };
+		2B287D41282CE1D90062F00F /* config-ios-5000546.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "config-ios-5000546.json"; sourceTree = "<group>"; };
+		2B3BA83E28068CF20077B2BF /* ABUDDrawAdViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABUDDrawAdViewController2.h; sourceTree = "<group>"; };
+		2B3BA83F28068CF20077B2BF /* ABUDDrawAdViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABUDDrawAdViewController2.m; sourceTree = "<group>"; };
+		2B3E301D29348857004AB5CA /* ABUDCustomNativeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomNativeAdapter.m; sourceTree = "<group>"; };
+		2B3E301E29348857004AB5CA /* ABUDCustomDrawAdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomDrawAdHelper.m; sourceTree = "<group>"; };
+		2B3E302029348857004AB5CA /* ABUDCustomDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomDrawView.h; sourceTree = "<group>"; };
+		2B3E302129348857004AB5CA /* ABUDCustomBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomBannerView.h; sourceTree = "<group>"; };
+		2B3E302229348857004AB5CA /* ABUDCustomSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomSplashView.m; sourceTree = "<group>"; };
+		2B3E302329348857004AB5CA /* ABUDStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDStoreViewController.m; sourceTree = "<group>"; };
+		2B3E302429348857004AB5CA /* ABUDCustomInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomInterstitialView.h; sourceTree = "<group>"; };
+		2B3E302529348857004AB5CA /* ABUDCustomFullscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomFullscreenView.m; sourceTree = "<group>"; };
+		2B3E302629348857004AB5CA /* ABUDCustomExpressNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomExpressNativeView.h; sourceTree = "<group>"; };
+		2B3E302729348857004AB5CA /* ABUDCustomDrawData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomDrawData.h; sourceTree = "<group>"; };
+		2B3E302829348857004AB5CA /* ABUDCustomNativeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomNativeData.m; sourceTree = "<group>"; };
+		2B3E302929348857004AB5CA /* ABUDCustomRewardedVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomRewardedVideoView.h; sourceTree = "<group>"; };
+		2B3E302A29348857004AB5CA /* ABUDCustomNativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomNativeView.m; sourceTree = "<group>"; };
+		2B3E302B29348857004AB5CA /* ABUDCustomExpressDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomExpressDrawView.h; sourceTree = "<group>"; };
+		2B3E302C29348857004AB5CA /* ABUDCustomSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomSplashView.h; sourceTree = "<group>"; };
+		2B3E302D29348857004AB5CA /* ABUDCustomBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomBannerView.m; sourceTree = "<group>"; };
+		2B3E302E29348857004AB5CA /* ABUDCustomDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomDrawView.m; sourceTree = "<group>"; };
+		2B3E302F29348857004AB5CA /* ABUDCustomDrawData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomDrawData.m; sourceTree = "<group>"; };
+		2B3E303029348857004AB5CA /* ABUDCustomExpressNativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomExpressNativeView.m; sourceTree = "<group>"; };
+		2B3E303129348857004AB5CA /* ABUDCustomFullscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomFullscreenView.h; sourceTree = "<group>"; };
+		2B3E303229348857004AB5CA /* ABUDCustomInterstitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomInterstitialView.m; sourceTree = "<group>"; };
+		2B3E303329348857004AB5CA /* ABUDStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDStoreViewController.h; sourceTree = "<group>"; };
+		2B3E303429348857004AB5CA /* ABUDCustomNativeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomNativeData.h; sourceTree = "<group>"; };
+		2B3E303529348857004AB5CA /* ABUDCustomExpressDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomExpressDrawView.m; sourceTree = "<group>"; };
+		2B3E303629348857004AB5CA /* ABUDCustomNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomNativeView.h; sourceTree = "<group>"; };
+		2B3E303729348857004AB5CA /* ABUDCustomRewardedVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomRewardedVideoView.m; sourceTree = "<group>"; };
+		2B3E303829348857004AB5CA /* ABUDCustomConfigAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomConfigAdapter.m; sourceTree = "<group>"; };
+		2B3E303929348857004AB5CA /* ABUDCustomNativeAdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomNativeAdHelper.m; sourceTree = "<group>"; };
+		2B3E303A29348857004AB5CA /* ABUDCustomBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomBannerAdapter.m; sourceTree = "<group>"; };
+		2B3E303B29348857004AB5CA /* ABUDCustomSplashAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomSplashAdapter.m; sourceTree = "<group>"; };
+		2B3E303C29348857004AB5CA /* ABUDCustomRewardedVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomRewardedVideoAdapter.m; sourceTree = "<group>"; };
+		2B3E303D29348857004AB5CA /* ABUDCustomFullscreenVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomFullscreenVideoAdapter.h; sourceTree = "<group>"; };
+		2B3E303E29348857004AB5CA /* ABUDCustomInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomInterstitialAdapter.m; sourceTree = "<group>"; };
+		2B3E303F29348857004AB5CA /* ABUDCustomDrawAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomDrawAdapter.h; sourceTree = "<group>"; };
+		2B3E304029348857004AB5CA /* ABUDCustomNativeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomNativeAdapter.h; sourceTree = "<group>"; };
+		2B3E304129348857004AB5CA /* ABUDCustomDrawAdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomDrawAdHelper.h; sourceTree = "<group>"; };
+		2B3E304229348857004AB5CA /* ABUDCustomSplashAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomSplashAdapter.h; sourceTree = "<group>"; };
+		2B3E304329348857004AB5CA /* ABUDCustomBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomBannerAdapter.h; sourceTree = "<group>"; };
+		2B3E304429348857004AB5CA /* ABUDCustomConfigAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomConfigAdapter.h; sourceTree = "<group>"; };
+		2B3E304529348857004AB5CA /* ABUDCustomNativeAdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomNativeAdHelper.h; sourceTree = "<group>"; };
+		2B3E304629348857004AB5CA /* ABUDCustomDrawAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomDrawAdapter.m; sourceTree = "<group>"; };
+		2B3E304729348857004AB5CA /* ABUDCustomInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomInterstitialAdapter.h; sourceTree = "<group>"; };
+		2B3E304829348857004AB5CA /* ABUDCustomFullscreenVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUDCustomFullscreenVideoAdapter.m; sourceTree = "<group>"; };
+		2B3E304929348857004AB5CA /* ABUDCustomRewardedVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDCustomRewardedVideoAdapter.h; sourceTree = "<group>"; };
+		2B91ECF528E2AB9F000BD524 /* UIImageView+GMDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GMDemo.m"; sourceTree = "<group>"; };
+		2B91ECF628E2AB9F000BD524 /* UIImageView+GMDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GMDemo.h"; sourceTree = "<group>"; };
+		2BB3896727D9D26800FF0DCE /* GMInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMInvocation.h; sourceTree = "<group>"; };
+		2BB3896827D9D26800FF0DCE /* GMInvocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMInvocation.m; sourceTree = "<group>"; };
+		2BB389D127D9EFCD00FF0DCE /* ABUAdDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABUAdDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB389D627D9F0CE00FF0DCE /* GromoreDemoController+BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+BannerAd.swift"; sourceTree = "<group>"; };
+		2BB389D827DA0B0500FF0DCE /* GromoreDemoController+InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+InterstitialAd.swift"; sourceTree = "<group>"; };
+		2BB389DA27DA0FD500FF0DCE /* GromoreDemoController+SplashAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+SplashAd.swift"; sourceTree = "<group>"; };
+		2BB389DC27DA121200FF0DCE /* GromoreDemoController+RewardedVideoAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+RewardedVideoAd.swift"; sourceTree = "<group>"; };
+		2BBF779D2746751D00476154 /* GroMore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroMore.h; sourceTree = "<group>"; };
+		2BD5F8ED284F25B400706033 /* GromoreDemoController+FullscreenVideoAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+FullscreenVideoAd.swift"; sourceTree = "<group>"; };
+		2BD5F8EE284F25B400706033 /* GromoreDemoController+NativeAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+NativeAd.swift"; sourceTree = "<group>"; };
+		2BD5F8F12850AE5B00706033 /* GromoreDemoController+ad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+ad.h"; sourceTree = "<group>"; };
+		2BD5F8F528519AF200706033 /* GromoreDemoController+InterstitialProAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+InterstitialProAd.swift"; sourceTree = "<group>"; };
+		2BD5F8F92851C42700706033 /* GromoreDemoController+DrawAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+DrawAd.swift"; sourceTree = "<group>"; };
+		2BE7E77127D9AAAD00571995 /* ABUDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABUDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BE7E77227D9AAAD00571995 /* GromoreDemoBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GromoreDemoBanner.swift; sourceTree = "<group>"; };
+		2BE7E77827DF45E700571995 /* ABURitInfo+Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABURitInfo+Demo.h"; sourceTree = "<group>"; };
+		2BE7E77927DF45E700571995 /* ABURitInfo+Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ABURitInfo+Demo.m"; sourceTree = "<group>"; };
+		2BE940B827B3E50B00E8997E /* GromoreDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoController.m; sourceTree = "<group>"; };
+		2BE940B927B3E50B00E8997E /* GromoreDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoController.h; sourceTree = "<group>"; };
+		2BE940BB27B3E50B00E8997E /* GromoreDemoAdHandleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdHandleCell.h; sourceTree = "<group>"; };
+		2BE940BC27B3E50B00E8997E /* GromoreDemoAdCallbackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdCallbackCell.m; sourceTree = "<group>"; };
+		2BE940BD27B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdBasicInfoCell.h; sourceTree = "<group>"; };
+		2BE940BF27B3E50B00E8997E /* GromoreDemoAdStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdStatusCell.h; sourceTree = "<group>"; };
+		2BE940C027B3E50B00E8997E /* GromoreDemoLoadAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoLoadAdView.h; sourceTree = "<group>"; };
+		2BE940C127B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdBasicInfoSelectCell.h; sourceTree = "<group>"; };
+		2BE940C227B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdBasicInfoCell.m; sourceTree = "<group>"; };
+		2BE940C327B3E50B00E8997E /* GromoreDemoAdHandleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdHandleCell.m; sourceTree = "<group>"; };
+		2BE940C427B3E50B00E8997E /* GromoreDemoAdCallbackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GromoreDemoAdCallbackCell.h; sourceTree = "<group>"; };
+		2BE940C527B3E50B00E8997E /* GromoreDemoAdStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdStatusCell.m; sourceTree = "<group>"; };
+		2BE940C827B3E50B00E8997E /* GromoreDemoLoadAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoLoadAdView.m; sourceTree = "<group>"; };
+		2BE940C927B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GromoreDemoAdBasicInfoSelectCell.m; sourceTree = "<group>"; };
+		2BE940D727BA2AAF00E8997E /* GromoreDemoController+SplashAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+SplashAd.h"; sourceTree = "<group>"; };
+		2BE940D827BA2AAF00E8997E /* GromoreDemoController+SplashAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+SplashAd.m"; sourceTree = "<group>"; };
+		2BE940DA27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+FullscreenAd.h"; sourceTree = "<group>"; };
+		2BE940DB27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+FullscreenAd.m"; sourceTree = "<group>"; };
+		2BE940DD27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+RewardedVideoAd.h"; sourceTree = "<group>"; };
+		2BE940DE27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+RewardedVideoAd.m"; sourceTree = "<group>"; };
+		2BE940E027BA311F00E8997E /* GromoreDemoController+InterstitialProAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+InterstitialProAd.h"; sourceTree = "<group>"; };
+		2BE940E127BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+InterstitialProAd.m"; sourceTree = "<group>"; };
+		2BEB4D66281145A0005ED133 /* GromoreDemoController+DrawAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GromoreDemoController+DrawAd.h"; sourceTree = "<group>"; };
+		2BEB4D67281145A0005ED133 /* GromoreDemoController+DrawAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GromoreDemoController+DrawAd.m"; sourceTree = "<group>"; };
+		2BF4054328C0AB6D00238912 /* libBacktraceRecording.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBacktraceRecording.tbd; path = usr/lib/libBacktraceRecording.tbd; sourceTree = SDKROOT; };
+		2BF4054428C0ABC800238912 /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
+		2BF4054628C0AC5400238912 /* libMainThreadChecker.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMainThreadChecker.tbd; path = usr/lib/libMainThreadChecker.tbd; sourceTree = SDKROOT; };
+		5EC9E3E5ADD35AB5D7E14581 /* Pods-ABUAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7F2E598724582D7500AAD048 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7F9866112434513F009ECDA1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7F98661324345148009ECDA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F98661524345157009ECDA1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7F98661924345168009ECDA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7F98661B24345173009ECDA1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7F98663324349AB5009ECDA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FFA46BC2429B44000707E3E /* ABUAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABUAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFA46C92429B44100707E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FFA46CE2429B44200707E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FFA46D02429B44200707E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFA46D12429B44200707E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FFA46D72429B44200707E3E /* ABUDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABUDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFA46E22429B44200707E3E /* ABUDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABUDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFA47A72429B65400707E3E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7FFA47A92429B65B00707E3E /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		7FFA47AB2429B66D00707E3E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7FFA47AE2429B75000707E3E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ABUDrawAdView+CustomRender.m"; sourceTree = "<group>"; };
+		85FBFF9AC395965FAC8B344C /* ABUDrawAdView+CustomRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABUDrawAdView+CustomRender.h"; sourceTree = "<group>"; };
+		C29D6AFA5A0C2103FF5D1898 /* Pods-ABUAdDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		D0105C8B25C3AA6B00D8DBFA /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		D013C84725CCF558006E19E6 /* NSString+LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalizedString.h"; sourceTree = "<group>"; };
+		D013C84825CCF558006E19E6 /* UIView+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
+		D013C84925CCF558006E19E6 /* NSString+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Json.m"; sourceTree = "<group>"; };
+		D013C84A25CCF558006E19E6 /* NSString+LocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LocalizedString.m"; sourceTree = "<group>"; };
+		D013C84B25CCF558006E19E6 /* NSString+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Json.h"; sourceTree = "<group>"; };
+		D013C84C25CCF558006E19E6 /* UIView+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
+		D013C85B25CCF558006E19E6 /* ABUDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDMacros.h; sourceTree = "<group>"; };
+		D013C85C25CCF558006E19E6 /* ABUDSlotID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUDSlotID.h; sourceTree = "<group>"; };
+		D059F53824DFF657005894C9 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		D0BBF65925BD39E900097474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D5238B264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ABUZoomoutViewDraggable.h"; sourceTree = "<group>"; };
+		D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ABUZoomoutViewDraggable.m"; sourceTree = "<group>"; };
+		D0D523F5264BBA5C00AF8D2C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		EAC0FEA6D7B80E890D274F98 /* Pods-ABUAdDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
+		EBBA20085B5C3E8586EA4B6B /* Pods_ABUAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB389BA27D9EFCD00FF0DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB389BB27D9EFCD00FF0DCE /* UIKit.framework in Frameworks */,
+				2BB389BC27D9EFCD00FF0DCE /* AdSupport.framework in Frameworks */,
+				2BB389BD27D9EFCD00FF0DCE /* WebKit.framework in Frameworks */,
+				2BB389BE27D9EFCD00FF0DCE /* QuartzCore.framework in Frameworks */,
+				2BB389BF27D9EFCD00FF0DCE /* libsqlite3.0.tbd in Frameworks */,
+				2BB389C027D9EFCD00FF0DCE /* CoreGraphics.framework in Frameworks */,
+				2BB389C127D9EFCD00FF0DCE /* libz.tbd in Frameworks */,
+				2BB389C227D9EFCD00FF0DCE /* CoreMotion.framework in Frameworks */,
+				2BB389C327D9EFCD00FF0DCE /* libresolv.tbd in Frameworks */,
+				2BB389C427D9EFCD00FF0DCE /* libc++.tbd in Frameworks */,
+				EEE494BC768F6A9C96761205 /* Pods_ABUAdDemoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA46B92429B44000707E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98663724349AB5009ECDA1 /* UIKit.framework in Frameworks */,
+				2BBB3AF12877D79F0044D343 /* AppTrackingTransparency.framework in Frameworks */,
+				7F9866122434513F009ECDA1 /* AdSupport.framework in Frameworks */,
+				7F98661C24345173009ECDA1 /* WebKit.framework in Frameworks */,
+				7F98661A24345168009ECDA1 /* QuartzCore.framework in Frameworks */,
+				7F98661624345157009ECDA1 /* libsqlite3.0.tbd in Frameworks */,
+				7F98661424345148009ECDA1 /* CoreGraphics.framework in Frameworks */,
+				7FFA47AF2429B75000707E3E /* libz.tbd in Frameworks */,
+				2BF4054528C0AC0B00238912 /* libboringssl.tbd in Frameworks */,
+				7FFA47AC2429B66D00707E3E /* CoreMotion.framework in Frameworks */,
+				7FFA47AA2429B65C00707E3E /* libresolv.tbd in Frameworks */,
+				7FFA47A82429B65400707E3E /* libc++.tbd in Frameworks */,
+				121F7A535F4B4B01A3F81861 /* Pods_ABUAdDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B05BB2227B5087C0018AE56 /* GMLog */ = {
+			isa = PBXGroup;
+			children = (
+				2B05BB2D27B5087C0018AE56 /* GMFunction.h */,
+				2B05BB2827B5087C0018AE56 /* GMFunction.m */,
+				2B05BB2C27B5087C0018AE56 /* GMLog.h */,
+				2B05BB2727B5087C0018AE56 /* GMLogManager.h */,
+				2B05BB2A27B5087C0018AE56 /* GMLogManager.m */,
+				2B05BB2327B5087C0018AE56 /* GMLogViewController.h */,
+				2B05BB2927B5087C0018AE56 /* GMMethod.h */,
+				2B05BB2527B5087C0018AE56 /* GMMethod.m */,
+				2B05BB2427B5087C0018AE56 /* GMMethodPrepare.h */,
+				2B05BB2B27B5087C0018AE56 /* UIViewController+GMLog.h */,
+				2B05BB2627B5087C0018AE56 /* UIViewController+GMLog.m */,
+				2BB3896727D9D26800FF0DCE /* GMInvocation.h */,
+				2BB3896827D9D26800FF0DCE /* GMInvocation.m */,
+			);
+			path = GMLog;
+			sourceTree = "<group>";
+		};
+		2B05BB3227B512830018AE56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B05BB3327B515360018AE56 /* GromoreAdLoadParam.h */,
+				2B05BB3427B515360018AE56 /* GromoreAdLoadParam.m */,
+				2B05BB3627B516460018AE56 /* GromoreAdLoadConfig.h */,
+				2B05BB3727B516460018AE56 /* GromoreAdLoadConfig.m */,
+				2BE7E77827DF45E700571995 /* ABURitInfo+Demo.h */,
+				2BE7E77927DF45E700571995 /* ABURitInfo+Demo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B05BB3D27B524700018AE56 /* DemoImplement */ = {
+			isa = PBXGroup;
+			children = (
+				2B05BB3227B512830018AE56 /* Model */,
+				2BE940B727B3E50B00E8997E /* Controller */,
+				2BE940BA27B3E50B00E8997E /* View */,
+			);
+			path = DemoImplement;
+			sourceTree = "<group>";
+		};
+		2B05BB3E27B524B70018AE56 /* Ad-OC */ = {
+			isa = PBXGroup;
+			children = (
+				2B05BB4F27B66AEE0018AE56 /* NativeAdView */,
+				2B05BB3F27B5333D0018AE56 /* GromoreDemoController+BannerAd.h */,
+				2B05BB4027B5333D0018AE56 /* GromoreDemoController+BannerAd.m */,
+				2B05BB4227B533790018AE56 /* GromoreDemoController+InterstitialAd.h */,
+				2B05BB4327B533790018AE56 /* GromoreDemoController+InterstitialAd.m */,
+				2BE940D727BA2AAF00E8997E /* GromoreDemoController+SplashAd.h */,
+				2BE940D827BA2AAF00E8997E /* GromoreDemoController+SplashAd.m */,
+				2BE940DD27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.h */,
+				2BE940DE27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.m */,
+				2BE940DA27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.h */,
+				2BE940DB27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.m */,
+				2BE940E027BA311F00E8997E /* GromoreDemoController+InterstitialProAd.h */,
+				2BE940E127BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m */,
+				2B05BB4C27B658220018AE56 /* GromoreDemoController+NativeAd.h */,
+				2B05BB4D27B658220018AE56 /* GromoreDemoController+NativeAd.m */,
+				2BEB4D66281145A0005ED133 /* GromoreDemoController+DrawAd.h */,
+				2BEB4D67281145A0005ED133 /* GromoreDemoController+DrawAd.m */,
+				85FBFB0989BB0A30D515B75C /* DrawAdView */,
+			);
+			path = "Ad-OC";
+			sourceTree = "<group>";
+		};
+		2B05BB4827B63BF70018AE56 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				2B156BE027FEC27D0071244C /* ABUDDrawAdViewController.h */,
+				2B156BE127FEC27D0071244C /* ABUDDrawAdViewController.m */,
+				2B3BA83E28068CF20077B2BF /* ABUDDrawAdViewController2.h */,
+				2B3BA83F28068CF20077B2BF /* ABUDDrawAdViewController2.m */,
+				2B05BB4927B63BF70018AE56 /* fishhook.c */,
+				2B05BB4A27B63BF70018AE56 /* fishhook.h */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		2B05BB4F27B66AEE0018AE56 /* NativeAdView */ = {
+			isa = PBXGroup;
+			children = (
+				2B05BB5027B66CF20018AE56 /* ABUNativeAdView+CustomRender.h */,
+				2B05BB5127B66CF20018AE56 /* ABUNativeAdView+CustomRender.m */,
+			);
+			path = NativeAdView;
+			sourceTree = "<group>";
+		};
+		2B3E301C29348857004AB5CA /* CustomAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E301D29348857004AB5CA /* ABUDCustomNativeAdapter.m */,
+				2B3E301E29348857004AB5CA /* ABUDCustomDrawAdHelper.m */,
+				2B3E301F29348857004AB5CA /* CustomADN */,
+				2B3E304429348857004AB5CA /* ABUDCustomConfigAdapter.h */,
+				2B3E303829348857004AB5CA /* ABUDCustomConfigAdapter.m */,
+				2B3E304029348857004AB5CA /* ABUDCustomNativeAdapter.h */,
+				2B3E303929348857004AB5CA /* ABUDCustomNativeAdHelper.m */,
+				2B3E304529348857004AB5CA /* ABUDCustomNativeAdHelper.h */,
+				2B3E304329348857004AB5CA /* ABUDCustomBannerAdapter.h */,
+				2B3E303A29348857004AB5CA /* ABUDCustomBannerAdapter.m */,
+				2B3E304229348857004AB5CA /* ABUDCustomSplashAdapter.h */,
+				2B3E303B29348857004AB5CA /* ABUDCustomSplashAdapter.m */,
+				2B3E303D29348857004AB5CA /* ABUDCustomFullscreenVideoAdapter.h */,
+				2B3E304829348857004AB5CA /* ABUDCustomFullscreenVideoAdapter.m */,
+				2B3E304729348857004AB5CA /* ABUDCustomInterstitialAdapter.h */,
+				2B3E303E29348857004AB5CA /* ABUDCustomInterstitialAdapter.m */,
+				2B3E303F29348857004AB5CA /* ABUDCustomDrawAdapter.h */,
+				2B3E304629348857004AB5CA /* ABUDCustomDrawAdapter.m */,
+				2B3E304129348857004AB5CA /* ABUDCustomDrawAdHelper.h */,
+				2B3E304929348857004AB5CA /* ABUDCustomRewardedVideoAdapter.h */,
+				2B3E303C29348857004AB5CA /* ABUDCustomRewardedVideoAdapter.m */,
+			);
+			path = CustomAdapter;
+			sourceTree = "<group>";
+		};
+		2B3E301F29348857004AB5CA /* CustomADN */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E302129348857004AB5CA /* ABUDCustomBannerView.h */,
+				2B3E302D29348857004AB5CA /* ABUDCustomBannerView.m */,
+				2B3E303329348857004AB5CA /* ABUDStoreViewController.h */,
+				2B3E302329348857004AB5CA /* ABUDStoreViewController.m */,
+				2B3E303129348857004AB5CA /* ABUDCustomFullscreenView.h */,
+				2B3E302529348857004AB5CA /* ABUDCustomFullscreenView.m */,
+				2B3E302B29348857004AB5CA /* ABUDCustomExpressDrawView.h */,
+				2B3E303529348857004AB5CA /* ABUDCustomExpressDrawView.m */,
+				2B3E302C29348857004AB5CA /* ABUDCustomSplashView.h */,
+				2B3E302229348857004AB5CA /* ABUDCustomSplashView.m */,
+				2B3E302029348857004AB5CA /* ABUDCustomDrawView.h */,
+				2B3E302E29348857004AB5CA /* ABUDCustomDrawView.m */,
+				2B3E302729348857004AB5CA /* ABUDCustomDrawData.h */,
+				2B3E302F29348857004AB5CA /* ABUDCustomDrawData.m */,
+				2B3E302629348857004AB5CA /* ABUDCustomExpressNativeView.h */,
+				2B3E303029348857004AB5CA /* ABUDCustomExpressNativeView.m */,
+				2B3E302429348857004AB5CA /* ABUDCustomInterstitialView.h */,
+				2B3E303229348857004AB5CA /* ABUDCustomInterstitialView.m */,
+				2B3E303429348857004AB5CA /* ABUDCustomNativeData.h */,
+				2B3E302829348857004AB5CA /* ABUDCustomNativeData.m */,
+				2B3E303629348857004AB5CA /* ABUDCustomNativeView.h */,
+				2B3E302A29348857004AB5CA /* ABUDCustomNativeView.m */,
+				2B3E302929348857004AB5CA /* ABUDCustomRewardedVideoView.h */,
+				2B3E303729348857004AB5CA /* ABUDCustomRewardedVideoView.m */,
+			);
+			path = CustomADN;
+			sourceTree = "<group>";
+		};
+		2BE7E77027D9AA5200571995 /* Ad-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2BE7E77227D9AAAD00571995 /* GromoreDemoBanner.swift */,
+				2BE7E77127D9AAAD00571995 /* ABUDemo-Bridging-Header.h */,
+				2BB389D627D9F0CE00FF0DCE /* GromoreDemoController+BannerAd.swift */,
+				2BB389D827DA0B0500FF0DCE /* GromoreDemoController+InterstitialAd.swift */,
+				2BD5F8F528519AF200706033 /* GromoreDemoController+InterstitialProAd.swift */,
+				2BB389DA27DA0FD500FF0DCE /* GromoreDemoController+SplashAd.swift */,
+				2BB389DC27DA121200FF0DCE /* GromoreDemoController+RewardedVideoAd.swift */,
+				2BD5F8ED284F25B400706033 /* GromoreDemoController+FullscreenVideoAd.swift */,
+				2BD5F8EE284F25B400706033 /* GromoreDemoController+NativeAd.swift */,
+				2BD5F8F92851C42700706033 /* GromoreDemoController+DrawAd.swift */,
+			);
+			path = "Ad-Swift";
+			sourceTree = "<group>";
+		};
+		2BE940B327B3E4F800E8997E /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				D013C85A25CCF558006E19E6 /* Macros */,
+				2BE7E77027D9AA5200571995 /* Ad-Swift */,
+				2B05BB3E27B524B70018AE56 /* Ad-OC */,
+				2B3E301C29348857004AB5CA /* CustomAdapter */,
+				2B05BB3D27B524700018AE56 /* DemoImplement */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2BE940B727B3E50B00E8997E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BE940B927B3E50B00E8997E /* GromoreDemoController.h */,
+				2BE940B827B3E50B00E8997E /* GromoreDemoController.m */,
+				2B05BB5927BBB8510018AE56 /* GromoreDemoController+GMLog.h */,
+				2B05BB5A27BBB8510018AE56 /* GromoreDemoController+GMLog.m */,
+				2BD5F8F12850AE5B00706033 /* GromoreDemoController+ad.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BE940BA27B3E50B00E8997E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BE940C027B3E50B00E8997E /* GromoreDemoLoadAdView.h */,
+				2BE940C827B3E50B00E8997E /* GromoreDemoLoadAdView.m */,
+				2BE940BD27B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.h */,
+				2BE940C227B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.m */,
+				2BE940C127B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.h */,
+				2BE940C927B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.m */,
+				2BE940BB27B3E50B00E8997E /* GromoreDemoAdHandleCell.h */,
+				2BE940C327B3E50B00E8997E /* GromoreDemoAdHandleCell.m */,
+				2BE940C427B3E50B00E8997E /* GromoreDemoAdCallbackCell.h */,
+				2BE940BC27B3E50B00E8997E /* GromoreDemoAdCallbackCell.m */,
+				2BE940BF27B3E50B00E8997E /* GromoreDemoAdStatusCell.h */,
+				2BE940C527B3E50B00E8997E /* GromoreDemoAdStatusCell.m */,
+				2B05BB4527B634C20018AE56 /* GromoreDemoAdConsoleView.h */,
+				2B05BB4627B634C20018AE56 /* GromoreDemoAdConsoleView.m */,
+				2B05BB5327BB9DB00018AE56 /* GromoreDemoAdDisplayView.h */,
+				2B05BB5427BB9DB00018AE56 /* GromoreDemoAdDisplayView.m */,
+				2B05BB5627BBA36E0018AE56 /* GromoreDemoDeviceInfoView.h */,
+				2B05BB5727BBA36E0018AE56 /* GromoreDemoDeviceInfoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F5A2A7E2429BF7A002273A9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA46C82429B44100707E3E /* Main.storyboard */,
+				7FFA46CD2429B44200707E3E /* LaunchScreen.storyboard */,
+				7FFA46D12429B44200707E3E /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		7FFA46B32429B44000707E3E = {
+			isa = PBXGroup;
+			children = (
+				7FFA46BE2429B44000707E3E /* ABUAdDemo */,
+				7FFA47862429B5DB00707E3E /* Frameworks */,
+				7FFA46BD2429B44000707E3E /* Products */,
+				9CF361E2AB0E4A36686A17BE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFA46BD2429B44000707E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA46BC2429B44000707E3E /* ABUAdDemo.app */,
+				7FFA46D72429B44200707E3E /* ABUDemoTests.xctest */,
+				7FFA46E22429B44200707E3E /* ABUDemoUITests.xctest */,
+				2BB389D127D9EFCD00FF0DCE /* ABUAdDemoSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFA46BE2429B44000707E3E /* ABUAdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D013C84425CCF558006E19E6 /* App */,
+				D0BBF65625BD39E900097474 /* Resource */,
+				7F5A2A7E2429BF7A002273A9 /* Support */,
+				2B05BB1F27B4FA170018AE56 /* GroMoreAppDelegate.h */,
+				2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */,
+				7FFA46D02429B44200707E3E /* Info.plist */,
+			);
+			path = ABUAdDemo;
+			sourceTree = "<group>";
+		};
+		7FFA47862429B5DB00707E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF4054628C0AC5400238912 /* libMainThreadChecker.tbd */,
+				2BF4054428C0ABC800238912 /* libboringssl.tbd */,
+				2BF4054328C0AB6D00238912 /* libBacktraceRecording.tbd */,
+				D0D523F5264BBA5C00AF8D2C /* EventKit.framework */,
+				D0105C8B25C3AA6B00D8DBFA /* AppTrackingTransparency.framework */,
+				D059F53824DFF657005894C9 /* libbz2.tbd */,
+				7F2E598724582D7500AAD048 /* CoreLocation.framework */,
+				7F98663324349AB5009ECDA1 /* UIKit.framework */,
+				7F98661B24345173009ECDA1 /* WebKit.framework */,
+				7F98661924345168009ECDA1 /* QuartzCore.framework */,
+				7F98661524345157009ECDA1 /* libsqlite3.0.tbd */,
+				7F98661324345148009ECDA1 /* CoreGraphics.framework */,
+				7F9866112434513F009ECDA1 /* AdSupport.framework */,
+				7FFA47AE2429B75000707E3E /* libz.tbd */,
+				7FFA47AB2429B66D00707E3E /* CoreMotion.framework */,
+				7FFA47A92429B65B00707E3E /* libresolv.tbd */,
+				7FFA47A72429B65400707E3E /* libc++.tbd */,
+				EBBA20085B5C3E8586EA4B6B /* Pods_ABUAdDemo.framework */,
+				25AE15D0FB80A7BC28C3FED3 /* Pods_ABUAdDemoSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85FBFB0989BB0A30D515B75C /* DrawAdView */ = {
+			isa = PBXGroup;
+			children = (
+				85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */,
+				85FBFF9AC395965FAC8B344C /* ABUDrawAdView+CustomRender.h */,
+			);
+			path = DrawAdView;
+			sourceTree = "<group>";
+		};
+		9CF361E2AB0E4A36686A17BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0896340C6C066C34C83C705A /* Pods-ABUAdDemo.debug.xcconfig */,
+				5EC9E3E5ADD35AB5D7E14581 /* Pods-ABUAdDemo.release.xcconfig */,
+				C29D6AFA5A0C2103FF5D1898 /* Pods-ABUAdDemoSwift.debug.xcconfig */,
+				EAC0FEA6D7B80E890D274F98 /* Pods-ABUAdDemoSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D013C84425CCF558006E19E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2BE940B327B3E4F800E8997E /* Example */,
+				D013C84525CCF558006E19E6 /* Utils */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D013C84525CCF558006E19E6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2B05BB4827B63BF70018AE56 /* C++ */,
+				2B05BB3C27B524140018AE56 /* GromoreDemoCustomDefine.h */,
+				2B05BB2227B5087C0018AE56 /* GMLog */,
+				D013C84625CCF558006E19E6 /* Category */,
+				D0D5238B264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.h */,
+				D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */,
+				2BBF779D2746751D00476154 /* GroMore.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D013C84625CCF558006E19E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B91ECF628E2AB9F000BD524 /* UIImageView+GMDemo.h */,
+				2B91ECF528E2AB9F000BD524 /* UIImageView+GMDemo.m */,
+				D013C84B25CCF558006E19E6 /* NSString+Json.h */,
+				D013C84925CCF558006E19E6 /* NSString+Json.m */,
+				D013C84725CCF558006E19E6 /* NSString+LocalizedString.h */,
+				D013C84A25CCF558006E19E6 /* NSString+LocalizedString.m */,
+				D013C84C25CCF558006E19E6 /* UIView+Draw.h */,
+				D013C84825CCF558006E19E6 /* UIView+Draw.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D013C85A25CCF558006E19E6 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D013C85B25CCF558006E19E6 /* ABUDMacros.h */,
+				D013C85C25CCF558006E19E6 /* ABUDSlotID.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		D0BBF65625BD39E900097474 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2B287D41282CE1D90062F00F /* config-ios-5000546.json */,
+				D0BBF65925BD39E900097474 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB3896A27D9EFCD00FF0DCE /* ABUAdDemoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB389CE27D9EFCD00FF0DCE /* Build configuration list for PBXNativeTarget "ABUAdDemoSwift" */;
+			buildPhases = (
+				87CBBE8ABB2591AD2F55C518 /* [CP] Check Pods Manifest.lock */,
+				2BB3896C27D9EFCD00FF0DCE /* Sources */,
+				2BB389BA27D9EFCD00FF0DCE /* Frameworks */,
+				2BB389C627D9EFCD00FF0DCE /* Resources */,
+				2BB389CA27D9EFCD00FF0DCE /* Embed Frameworks */,
+				2BB389CD27D9EFCD00FF0DCE /* ShellScript */,
+				28A093CFB283101EE11F936A /* [CP] Embed Pods Frameworks */,
+				0362A7AB0FD77F254F82F3D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABUAdDemoSwift;
+			productName = ABUDemo;
+			productReference = 2BB389D127D9EFCD00FF0DCE /* ABUAdDemoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FFA46BB2429B44000707E3E /* ABUAdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFA46EB2429B44200707E3E /* Build configuration list for PBXNativeTarget "ABUAdDemo" */;
+			buildPhases = (
+				D81E7BE21E428C5C7BBD187D /* [CP] Check Pods Manifest.lock */,
+				7FFA46B82429B44000707E3E /* Sources */,
+				7FFA46B92429B44000707E3E /* Frameworks */,
+				7FFA46BA2429B44000707E3E /* Resources */,
+				0F5CFD6F256FA4860018C2B1 /* Embed Frameworks */,
+				2B2BB9E82630302800DE4743 /* ShellScript */,
+				2B02746828101ABF00B8018D /* [User] Upload DSYM */,
+				473CDC49FD62BC78D1CC2B3B /* [CP] Embed Pods Frameworks */,
+				971A446ECDA9796499EE8D35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABUAdDemo;
+			productName = ABUDemo;
+			productReference = 7FFA46BC2429B44000707E3E /* ABUAdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFA46B42429B44000707E3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = bytedance;
+				TargetAttributes = {
+					7FFA46BB2429B44000707E3E = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 7FFA46B72429B44000707E3E /* Build configuration list for PBXProject "ABUAdDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FFA46B32429B44000707E3E;
+			productRefGroup = 7FFA46BD2429B44000707E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFA46BB2429B44000707E3E /* ABUAdDemo */,
+				2BB3896A27D9EFCD00FF0DCE /* ABUAdDemoSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB389C627D9EFCD00FF0DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB389C727D9EFCD00FF0DCE /* LaunchScreen.storyboard in Resources */,
+				2BB389C827D9EFCD00FF0DCE /* Main.storyboard in Resources */,
+				2BB389C927D9EFCD00FF0DCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA46BA2429B44000707E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFA46CF2429B44200707E3E /* LaunchScreen.storyboard in Resources */,
+				7FFA46CA2429B44100707E3E /* Main.storyboard in Resources */,
+				2B287D42282CE1D90062F00F /* config-ios-5000546.json in Resources */,
+				D0BBF65C25BD39E900097474 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0362A7AB0FD77F254F82F3D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A093CFB283101EE11F936A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B02746828101ABF00B8018D /* [User] Upload DSYM */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[User] Upload DSYM";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f ${PODS_ROOT}/Heimdallr/Heimdallr/dSYMUpload.sh ]; then\n    /bin/sh ${PODS_ROOT}/Heimdallr/Heimdallr/dSYMUpload.sh CN 344946\nfi\n";
+		};
+		2B2BB9E82630302800DE4743 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nREVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n    \"${BUILD_SCRIPT_PATH}\"\nelse\n    echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n";
+		};
+		2BB389CD27D9EFCD00FF0DCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nREVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n    \"${BUILD_SCRIPT_PATH}\"\nelse\n    echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n";
+		};
+		473CDC49FD62BC78D1CC2B3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CBBE8ABB2591AD2F55C518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemoSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971A446ECDA9796499EE8D35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81E7BE21E428C5C7BBD187D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB3896C27D9EFCD00FF0DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD5F8FB2851C4B700706033 /* ABUDrawAdView+CustomRender.m in Sources */,
+				2B3E305F29348858004AB5CA /* ABUDCustomExpressNativeView.m in Sources */,
+				2BB3896E27D9EFCD00FF0DCE /* GromoreDemoAdConsoleView.m in Sources */,
+				2B3E306B29348858004AB5CA /* ABUDCustomBannerAdapter.m in Sources */,
+				2BB3897127D9EFCD00FF0DCE /* fishhook.c in Sources */,
+				2BB3897327D9EFCD00FF0DCE /* GromoreDemoAdHandleCell.m in Sources */,
+				2BB3897627D9EFCD00FF0DCE /* GromoreDemoAdBasicInfoSelectCell.m in Sources */,
+				2B3E304F29348858004AB5CA /* ABUDCustomSplashView.m in Sources */,
+				2BB3897C27D9EFCD00FF0DCE /* GroMoreAppDelegate.m in Sources */,
+				2BB3898027D9EFCD00FF0DCE /* GMLogManager.m in Sources */,
+				2BD5F8F42850B22F00706033 /* GromoreDemoController+SplashAd.swift in Sources */,
+				2B3E305929348858004AB5CA /* ABUDCustomBannerView.m in Sources */,
+				2B3E306529348858004AB5CA /* ABUDCustomRewardedVideoView.m in Sources */,
+				2B3E304B29348857004AB5CA /* ABUDCustomNativeAdapter.m in Sources */,
+				2B3E307129348858004AB5CA /* ABUDCustomInterstitialAdapter.m in Sources */,
+				2BB3898127D9EFCD00FF0DCE /* GromoreDemoAdBasicInfoCell.m in Sources */,
+				2B3E306929348858004AB5CA /* ABUDCustomNativeAdHelper.m in Sources */,
+				2BB3898327D9EFCD00FF0DCE /* NSString+LocalizedString.m in Sources */,
+				2BB3898527D9EFCD00FF0DCE /* GromoreDemoBanner.swift in Sources */,
+				2B3E305D29348858004AB5CA /* ABUDCustomDrawData.m in Sources */,
+				2B3E305529348858004AB5CA /* ABUDCustomNativeData.m in Sources */,
+				2BB389D927DA0B0600FF0DCE /* GromoreDemoController+InterstitialAd.swift in Sources */,
+				2B3E304D29348858004AB5CA /* ABUDCustomDrawAdHelper.m in Sources */,
+				2BB3898727D9EFCD00FF0DCE /* GromoreDemoController+GMLog.m in Sources */,
+				2BE7E77B27DF45E700571995 /* ABURitInfo+Demo.m in Sources */,
+				2B3E307329348858004AB5CA /* ABUDCustomDrawAdapter.m in Sources */,
+				2BB3898D27D9EFCD00FF0DCE /* GMFunction.m in Sources */,
+				2B3E307529348858004AB5CA /* ABUDCustomFullscreenVideoAdapter.m in Sources */,
+				2BB3898E27D9EFCD00FF0DCE /* GromoreDemoAdDisplayView.m in Sources */,
+				2B3E306129348858004AB5CA /* ABUDCustomInterstitialView.m in Sources */,
+				2BB3899027D9EFCD00FF0DCE /* GMMethod.m in Sources */,
+				2BB3899227D9EFCD00FF0DCE /* GromoreAdLoadConfig.m in Sources */,
+				2BB389D727D9F0CE00FF0DCE /* GromoreDemoController+BannerAd.swift in Sources */,
+				2BD5F8EF284F25B500706033 /* GromoreDemoController+FullscreenVideoAd.swift in Sources */,
+				2BB3899627D9EFCD00FF0DCE /* GromoreDemoDeviceInfoView.m in Sources */,
+				2BB3899927D9EFCD00FF0DCE /* GromoreAdLoadParam.m in Sources */,
+				2BD5F8F72851A29800706033 /* GromoreDemoController+NativeAd.m in Sources */,
+				2BB3899D27D9EFCD00FF0DCE /* GromoreDemoAdStatusCell.m in Sources */,
+				2BB3899E27D9EFCD00FF0DCE /* UIViewController+GMLog.m in Sources */,
+				2BB3899F27D9EFCD00FF0DCE /* UIView+Draw.m in Sources */,
+				2BD5F8F82851C39100706033 /* ABUNativeAdView+CustomRender.m in Sources */,
+				2B3E306F29348858004AB5CA /* ABUDCustomRewardedVideoAdapter.m in Sources */,
+				2BD5F8F0284F25B500706033 /* GromoreDemoController+NativeAd.swift in Sources */,
+				2B3E305729348858004AB5CA /* ABUDCustomNativeView.m in Sources */,
+				2BB389AA27D9EFCD00FF0DCE /* main.m in Sources */,
+				2B3E305329348858004AB5CA /* ABUDCustomFullscreenView.m in Sources */,
+				2B3E306729348858004AB5CA /* ABUDCustomConfigAdapter.m in Sources */,
+				2BD5F8FA2851C42700706033 /* GromoreDemoController+DrawAd.swift in Sources */,
+				2BB389DD27DA121200FF0DCE /* GromoreDemoController+RewardedVideoAd.swift in Sources */,
+				2B3E305B29348858004AB5CA /* ABUDCustomDrawView.m in Sources */,
+				2BB389B027D9EFCD00FF0DCE /* GromoreDemoAdCallbackCell.m in Sources */,
+				2B3E306D29348858004AB5CA /* ABUDCustomSplashAdapter.m in Sources */,
+				2BB389B127D9EFCD00FF0DCE /* GromoreDemoLoadAdView.m in Sources */,
+				2BB389B527D9EFCD00FF0DCE /* NSString+Json.m in Sources */,
+				2BB389B627D9EFCD00FF0DCE /* UIView+ABUZoomoutViewDraggable.m in Sources */,
+				2BD5F8F628519AF200706033 /* GromoreDemoController+InterstitialProAd.swift in Sources */,
+				2BB389B827D9EFCD00FF0DCE /* GMInvocation.m in Sources */,
+				2B3E306329348858004AB5CA /* ABUDCustomExpressDrawView.m in Sources */,
+				2B3E305129348858004AB5CA /* ABUDStoreViewController.m in Sources */,
+				2BB389B927D9EFCD00FF0DCE /* GromoreDemoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA46B82429B44000707E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3E306829348858004AB5CA /* ABUDCustomNativeAdHelper.m in Sources */,
+				2B05BB4727B634C20018AE56 /* GromoreDemoAdConsoleView.m in Sources */,
+				2B05BB4B27B63BF70018AE56 /* fishhook.c in Sources */,
+				2B3E306229348858004AB5CA /* ABUDCustomExpressDrawView.m in Sources */,
+				2B3E305029348858004AB5CA /* ABUDStoreViewController.m in Sources */,
+				2BE940CF27B3E50B00E8997E /* GromoreDemoAdHandleCell.m in Sources */,
+				2B3E304A29348857004AB5CA /* ABUDCustomNativeAdapter.m in Sources */,
+				2B3E307429348858004AB5CA /* ABUDCustomFullscreenVideoAdapter.m in Sources */,
+				2B3E305829348858004AB5CA /* ABUDCustomBannerView.m in Sources */,
+				2BE940D327B3E50B00E8997E /* GromoreDemoAdBasicInfoSelectCell.m in Sources */,
+				2B3E305A29348858004AB5CA /* ABUDCustomDrawView.m in Sources */,
+				2B91ECF728E2AB9F000BD524 /* UIImageView+GMDemo.m in Sources */,
+				2B3E304E29348858004AB5CA /* ABUDCustomSplashView.m in Sources */,
+				2B3E307029348858004AB5CA /* ABUDCustomInterstitialAdapter.m in Sources */,
+				2BE940D927BA2AAF00E8997E /* GromoreDemoController+SplashAd.m in Sources */,
+				2B05BB5227B66CF20018AE56 /* ABUNativeAdView+CustomRender.m in Sources */,
+				2B05BB2127B4FA170018AE56 /* GroMoreAppDelegate.m in Sources */,
+				2B3E306C29348858004AB5CA /* ABUDCustomSplashAdapter.m in Sources */,
+				2B3E306E29348858004AB5CA /* ABUDCustomRewardedVideoAdapter.m in Sources */,
+				2B3E306629348858004AB5CA /* ABUDCustomConfigAdapter.m in Sources */,
+				2B05BB3127B5087C0018AE56 /* GMLogManager.m in Sources */,
+				2BE940CE27B3E50B00E8997E /* GromoreDemoAdBasicInfoCell.m in Sources */,
+				2B05BB4427B533790018AE56 /* GromoreDemoController+InterstitialAd.m in Sources */,
+				2B3E307229348858004AB5CA /* ABUDCustomDrawAdapter.m in Sources */,
+				D013C89C25CCF559006E19E6 /* NSString+LocalizedString.m in Sources */,
+				2B05BB5B27BBB8510018AE56 /* GromoreDemoController+GMLog.m in Sources */,
+				2BE7E77A27DF45E700571995 /* ABURitInfo+Demo.m in Sources */,
+				2BE940DF27BA2F2900E8997E /* GromoreDemoController+RewardedVideoAd.m in Sources */,
+				2B3E305629348858004AB5CA /* ABUDCustomNativeView.m in Sources */,
+				2B3E306029348858004AB5CA /* ABUDCustomInterstitialView.m in Sources */,
+				2B05BB3027B5087C0018AE56 /* GMFunction.m in Sources */,
+				2B05BB5527BB9DB00018AE56 /* GromoreDemoAdDisplayView.m in Sources */,
+				2B05BB2E27B5087C0018AE56 /* GMMethod.m in Sources */,
+				2B05BB3827B516460018AE56 /* GromoreAdLoadConfig.m in Sources */,
+				2B3E305229348858004AB5CA /* ABUDCustomFullscreenView.m in Sources */,
+				2B05BB5827BBA36E0018AE56 /* GromoreDemoDeviceInfoView.m in Sources */,
+				2B3E305E29348858004AB5CA /* ABUDCustomExpressNativeView.m in Sources */,
+				2B05BB3527B515360018AE56 /* GromoreAdLoadParam.m in Sources */,
+				2BE940D027B3E50B00E8997E /* GromoreDemoAdStatusCell.m in Sources */,
+				2B05BB2F27B5087C0018AE56 /* UIViewController+GMLog.m in Sources */,
+				D013C89A25CCF559006E19E6 /* UIView+Draw.m in Sources */,
+				2BEB4D68281145A0005ED133 /* GromoreDemoController+DrawAd.m in Sources */,
+				2B05BB4127B5333D0018AE56 /* GromoreDemoController+BannerAd.m in Sources */,
+				2B3E306A29348858004AB5CA /* ABUDCustomBannerAdapter.m in Sources */,
+				7FFA46D22429B44200707E3E /* main.m in Sources */,
+				2B05BB4E27B658220018AE56 /* GromoreDemoController+NativeAd.m in Sources */,
+				2BE940CC27B3E50B00E8997E /* GromoreDemoAdCallbackCell.m in Sources */,
+				2BE940D227B3E50B00E8997E /* GromoreDemoLoadAdView.m in Sources */,
+				2BE940E227BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m in Sources */,
+				2B3E305C29348858004AB5CA /* ABUDCustomDrawData.m in Sources */,
+				2B3E306429348858004AB5CA /* ABUDCustomRewardedVideoView.m in Sources */,
+				2BE940DC27BA2D6500E8997E /* GromoreDemoController+FullscreenAd.m in Sources */,
+				2B3E304C29348858004AB5CA /* ABUDCustomDrawAdHelper.m in Sources */,
+				D013C89B25CCF559006E19E6 /* NSString+Json.m in Sources */,
+				D0D5238D264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m in Sources */,
+				2B3E305429348858004AB5CA /* ABUDCustomNativeData.m in Sources */,
+				2BB3896927D9D26900FF0DCE /* GMInvocation.m in Sources */,
+				2BE940CB27B3E50B00E8997E /* GromoreDemoController.m in Sources */,
+				85FBF16D5B3A96475EECBC67 /* ABUDrawAdView+CustomRender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FFA46C82429B44100707E3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFA46C92429B44100707E3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FFA46CD2429B44200707E3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFA46CE2429B44200707E3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB389CF27D9EFCD00FF0DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29D6AFA5A0C2103FF5D1898 /* Pods-ABUAdDemoSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PLSVFDD87X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleAppMeasurement.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleMobileAds.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleUtilities.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/nanopb.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/PromisesObjC.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/UserMessagingPlatform.xcframework/ios-arm64_armv7",
+				);
+				GM_DISPLAY_NAME = "GM-swift";
+				INFOPLIST_FILE = ABUAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_GENERATE_MAP_FILE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WX",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-lc++abi",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.gromore-inhouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = demo_dev_62_20221012;
+				SWIFT_OBJC_BRIDGING_HEADER = "ABUAdDemo/App/Example/Ad-Swift/ABUDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB389D027D9EFCD00FF0DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC0FEA6D7B80E890D274F98 /* Pods-ABUAdDemoSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PLSVFDD87X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleAppMeasurement.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleMobileAds.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleUtilities.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/nanopb.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/PromisesObjC.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/UserMessagingPlatform.xcframework/ios-arm64_armv7",
+				);
+				GM_DISPLAY_NAME = "GM-swift";
+				INFOPLIST_FILE = ABUAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_GENERATE_MAP_FILE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WX",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-lc++abi",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.gromore-inhouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = demo_dev_62_20221012;
+				SWIFT_OBJC_BRIDGING_HEADER = "ABUAdDemo/App/Example/Ad-Swift/ABUDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FFA46E92429B44200707E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FFA46EA2429B44200707E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFA46EC2429B44200707E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0896340C6C066C34C83C705A /* Pods-ABUAdDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PLSVFDD87X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleAppMeasurement.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleMobileAds.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleUtilities.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/nanopb.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/PromisesObjC.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/UserMessagingPlatform.xcframework/ios-arm64_armv7",
+				);
+				GM_DISPLAY_NAME = "GM-OC";
+				INFOPLIST_FILE = ABUAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_GENERATE_MAP_FILE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WX",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-lc++abi",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.gromore-inhouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = demo_dev_62_20221012;
+				SWIFT_OBJC_BRIDGING_HEADER = "ABUAdDemo/App/Example/Ad-Swift/ABUDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FFA46ED2429B44200707E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC9E3E5ADD35AB5D7E14581 /* Pods-ABUAdDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PLSVFDD87X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleAppMeasurement.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleMobileAds.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/GoogleUtilities.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/nanopb.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/PromisesObjC.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.1.0/UserMessagingPlatform.xcframework/ios-arm64_armv7",
+				);
+				GM_DISPLAY_NAME = "GM-OC";
+				INFOPLIST_FILE = ABUAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_GENERATE_MAP_FILE = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WX",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-lc++abi",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.gromore-inhouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = demo_dev_62_20221012;
+				SWIFT_OBJC_BRIDGING_HEADER = "ABUAdDemo/App/Example/Ad-Swift/ABUDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB389CE27D9EFCD00FF0DCE /* Build configuration list for PBXNativeTarget "ABUAdDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB389CF27D9EFCD00FF0DCE /* Debug */,
+				2BB389D027D9EFCD00FF0DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFA46B72429B44000707E3E /* Build configuration list for PBXProject "ABUAdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA46E92429B44200707E3E /* Debug */,
+				7FFA46EA2429B44200707E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFA46EB2429B44200707E3E /* Build configuration list for PBXNativeTarget "ABUAdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA46EC2429B44200707E3E /* Debug */,
+				7FFA46ED2429B44200707E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFA46B42429B44000707E3E /* Project object */;
+}

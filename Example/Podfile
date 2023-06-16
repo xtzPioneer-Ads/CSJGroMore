@@ -1,18 +1,21 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-use_frameworks!
-
 platform :ios, '11.0'
 
-target 'CSJGroMore_Example' do
+target 'ABUAdDemo' do
   
-  pod 'CSJGroMore', :path => '../'
-  
-  target 'CSJGroMore_Tests' do
-    inherit! :search_paths
+  use_frameworks!
 
-    pod 'FBSnapshotTestCase'
-  end
+  pod 'CSJGroMore', :path => '../'
+
+end
+
+target 'ABUAdDemoSwift' do
+  
+  use_frameworks!
+
+  pod 'CSJGroMore', :path => '../'
+
 end
 
 post_install do |installer|

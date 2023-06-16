@@ -33,10 +33,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CSJGroMore/Classes/**/*.{h,m}'
   
-  # 默认(百度,穿山甲,广点通/优量汇,快手)广告SDK
-  s.default_subspecs = 'ABUVisualDebug', 'ABUAdBaiduAdapter', 'ABUAdCsjAdapter', 'ABUAdGdtAdapter', 'ABUAdKsAdapter'
-  
   # 1.GroMoreSDK核心库
+  
+  # Ads-Mediation-CN
   s.subspec 'Ads-Mediation-CN' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/Ads-Mediation-CN_4.2.0.3/Ads-Mediation-CN/ABUAdSDK.framework'
       ss.dependency "BURelyFoundation"
@@ -118,6 +117,8 @@ Pod::Spec.new do |s|
       ss.dependency "BURelyFoundation"
   end
 
+  # 3.GroMoreSDKDebug
+  
   # ABUVisualDebug
   s.subspec 'ABUVisualDebug' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUVisualDebug_4.2.0.3/ABUVisualDebug/ABUVisualDebug.framework'
