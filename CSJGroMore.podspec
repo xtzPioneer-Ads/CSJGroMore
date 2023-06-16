@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CSJGroMore/Classes/**/*.{h,m}'
   
-  # 默认(百度SDK,穿山甲,广点通/优量汇,快手)
+  # 默认(百度,穿山甲,广点通/优量汇,快手)广告SDK
   s.default_subspecs = 'ABUVisualDebug', 'ABUAdBaiduAdapter', 'ABUAdCsjAdapter', 'ABUAdGdtAdapter', 'ABUAdKsAdapter'
   
   # 1.GroMoreSDK核心库
