@@ -9,6 +9,7 @@
 
 ## 使用CocoaPods安装
 ```ruby
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/xtzPioneer-Ads/AdsSpecs.git'
 ```
 ```ruby
