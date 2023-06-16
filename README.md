@@ -1,7 +1,8 @@
 # CSJGroMore
 穿山甲GroMore广告SDK。
 
-## 官方版本
+## 官方GroMore
+[穿山甲GroMore官方文档](https://www.csjplatform.com/union/media/union/download/detail?id=79&osType=ios&locale=zh-CN&backPath=/union/media/union/download/groMore)
 <p>官方版本：4.2.0.3<br>
 <p>官方修订版本：2023-05-26<br>
 <p>官方修订说明：适配ADN版本，详见SDK前置说明模块<br>
@@ -25,5 +26,5 @@ end
 ```
 
 ## 依赖说明
-默认依赖(百度SDK,穿山甲,广点通/优量汇,快手)SDK
+默认依赖(百度,穿山甲,广点通/优量汇,快手)广告SDK
 
