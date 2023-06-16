@@ -28,3 +28,5 @@ end
 ## 依赖说明
 默认依赖(百度,穿山甲,广点通/优量汇,快手)广告SDK
 
+## 许可证
+CSJGroMore 是根据麻省理工学院许可证发布的。[见许可证](https://github.com/xtzPioneer-Ads/CSJGroMore/blob/main/LICENSE)有关详细信息。
