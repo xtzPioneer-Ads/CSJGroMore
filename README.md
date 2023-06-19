@@ -14,25 +14,16 @@ source 'https://github.com/xtzPioneer-Ads/AdsSpecs.git'
 ```
 ```ruby
 pod 'CSJGroMore', '~> 4.2.0.3'
+pod 'Ads-CN', '~> 5.3.0.4'
 ```
 ```ruby
-# 穿山甲
-pod 'Ads-CN', '~> 5.3.0.4'
-# 广点通/优量汇
 pod 'GDTMobSDK', '~> 4.14.30'
-# 快手
 pod 'KSAdSDK', '~> 3.3.46'
-# UnityAds
 pod 'UnityAds', '~> 4.7.1'
-# Admob/GoogleAd
 pod 'Google-Mobile-Ads-SDK', '~> 10.6.0'
-# 百度SDK
 pod 'BaiduMobAdSDK', '~> 5.301'
-# SigmobAd
 pod 'SigmobAd-iOS', '~> 4.9.2'
-# 游可赢
 pod 'KlevinAdSDK', '~> 2.11.0.215'
-# MintegralAdSDK
 pod 'MintegralAdSDK', '~> 7.3.8'
 ```
 ```ruby
