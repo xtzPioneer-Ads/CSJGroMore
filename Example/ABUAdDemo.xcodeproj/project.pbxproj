@@ -772,8 +772,8 @@
 				2BB389C627D9EFCD00FF0DCE /* Resources */,
 				2BB389CA27D9EFCD00FF0DCE /* Embed Frameworks */,
 				2BB389CD27D9EFCD00FF0DCE /* ShellScript */,
-				28A093CFB283101EE11F936A /* [CP] Embed Pods Frameworks */,
 				0362A7AB0FD77F254F82F3D5 /* [CP] Copy Pods Resources */,
+				FAF18308F2700FE4F3E70AE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -795,8 +795,8 @@
 				0F5CFD6F256FA4860018C2B1 /* Embed Frameworks */,
 				2B2BB9E82630302800DE4743 /* ShellScript */,
 				2B02746828101ABF00B8018D /* [User] Upload DSYM */,
-				473CDC49FD62BC78D1CC2B3B /* [CP] Embed Pods Frameworks */,
 				971A446ECDA9796499EE8D35 /* [CP] Copy Pods Resources */,
+				F94F8CA082DB73FBB1B98CEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -883,23 +883,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		28A093CFB283101EE11F936A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2B02746828101ABF00B8018D /* [User] Upload DSYM */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -951,23 +934,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nREVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n    \"${BUILD_SCRIPT_PATH}\"\nelse\n    echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n";
-		};
-		473CDC49FD62BC78D1CC2B3B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		87CBBE8ABB2591AD2F55C518 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1028,6 +994,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94F8CA082DB73FBB1B98CEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF18308F2700FE4F3E70AE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

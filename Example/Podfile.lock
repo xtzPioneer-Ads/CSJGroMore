@@ -31,58 +31,38 @@ PODS:
     - CSJGroMore/ABUAdUnityAdapter (= 4.2.0.3)
     - CSJGroMore/ABUVisualDebug (= 4.2.0.3)
     - CSJGroMore/Ads-Mediation-CN (= 4.2.0.3)
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdAdmobAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - Google-Mobile-Ads-SDK (~> 10.6.0)
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdBaiduAdapter (4.2.0.3):
-    - BaiduMobAdSDK (~> 5.301)
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdCsjAdapter (4.2.0.3):
-    - Ads-CN (~> 5.3.0.4)
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdGdtAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - GDTMobSDK (~> 4.14.30)
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdKlevinAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - KlevinAdSDK (~> 2.11.0.215)
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdKsAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - KSAdSDK (~> 3.3.46)
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdMintegralAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/ABUAdSigmobAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - MintegralAdSDK (~> 7.3.8)
-    - SigmobAd-iOS (~> 4.9.2)
   - CSJGroMore/ABUAdUnityAdapter (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - MintegralAdSDK (~> 7.3.8)
-    - UnityAds (~> 4.7.1)
   - CSJGroMore/ABUVisualDebug (4.2.0.3):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-    - MintegralAdSDK (~> 7.3.8)
   - CSJGroMore/Ads-Mediation-CN (4.2.0.3):
     - BURelyFoundation
-    - MintegralAdSDK (~> 7.3.8)
   - GDTMobSDK (4.14.30):
     - GDTMobSDK/GDTMobSDK (= 4.14.30)
   - GDTMobSDK/GDTMobSDK (4.14.30)
@@ -176,7 +156,16 @@ PODS:
   - UnityAds (4.7.1)
 
 DEPENDENCIES:
+  - Ads-CN (~> 5.3.0.4)
+  - BaiduMobAdSDK (~> 5.301)
   - CSJGroMore (from `../`)
+  - GDTMobSDK (~> 4.14.30)
+  - Google-Mobile-Ads-SDK (~> 10.6.0)
+  - KlevinAdSDK (~> 2.11.0.215)
+  - KSAdSDK (~> 3.3.46)
+  - MintegralAdSDK (~> 7.3.8)
+  - SigmobAd-iOS (~> 4.9.2)
+  - UnityAds (~> 4.7.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -204,7 +193,7 @@ SPEC CHECKSUMS:
   Ads-CN: b87c8df100e37fbfd12feca669c6486d788ea7ad
   BaiduMobAdSDK: bb64abc1b5104134d4a0fcd2ff223e688c5aa372
   BURelyFoundation: 7de2625b5c23a689b82ce9820f9231dcd1f8f739
-  CSJGroMore: 46c7b12747910e0045e87d2110516ed07cb3bf86
+  CSJGroMore: 512e53459de224667be90b87742166ed12fc0894
   GDTMobSDK: 4cae52817d881c26f7a656fba439a0792d695933
   Google-Mobile-Ads-SDK: 07599a44221fb3f00d111d5c2f4e27549f8dbf21
   GoogleAppMeasurement: d3dabccdb336fc0ae44b633c8abaa26559893cd9
@@ -218,6 +207,6 @@ SPEC CHECKSUMS:
   SigmobAd-iOS: aae20b3b284928139215a8e626eeeaf3778a3f35
   UnityAds: 7c095394cf4815bb607db6b98de86b06b068cb51
 
-PODFILE CHECKSUM: 636c54c05ee83dd2bfba333aae018f942420d7c2
+PODFILE CHECKSUM: ca6f5311f251d408db3eca9512dcb49235bf49ce
 
 COCOAPODS: 1.12.1

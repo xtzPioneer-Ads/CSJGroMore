@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/xtzPioneer-Ads/CSJGroMore.git', :tag => s.version.to_s }
   
   s.platform     = :ios, '11.0'
-
+  
   s.requires_arc = true
   s.static_framework = true
   
@@ -32,6 +32,11 @@ Pod::Spec.new do |s|
   valid_archs = ['arm64', 'armv7', 'x86_64', 'i386']
 
   s.source_files = 'CSJGroMore/Classes/**/*.{h,m}'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.resource_bundles = {
+     'CSJGroMore' => ['CSJGroMore/Assets/*.{png}']
+  }
   
   # 1.GroMoreSDK核心库
   
@@ -42,21 +47,19 @@ Pod::Spec.new do |s|
       ss.libraries = 'sqlite3', 'xml2', 'z'
       ss.frameworks = 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'UIKit', 'AdSupport', 'StoreKit', 'QuartzCore', 'CoreTelephony', 'MobileCoreServices', 'Accelerate', 'AVFoundation', 'WebKit'
   end
-
+  
   # 2.GroMore官方适配adapter
   
   # Admob/GoogleAd
   s.subspec 'ABUAdAdmobAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdAdmobAdapter_10.0.0.0/ABUAdAdmobAdapter/ABUAdAdmobAdapter.framework'
-      ss.dependency 'Google-Mobile-Ads-SDK', '~> 10.6.0'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
 
-  # 百度SDK
+  # 百度
   s.subspec 'ABUAdBaiduAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdBaiduAdapter_5.14.0/ABUAdBaiduAdapter/ABUAdBaiduAdapter.framework'
-      ss.dependency 'BaiduMobAdSDK', '~> 5.301'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -64,7 +67,6 @@ Pod::Spec.new do |s|
   # 穿山甲
   s.subspec 'ABUAdCsjAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdCsjAdapter_5.3.0.3.0/ABUAdCsjAdapter/ABUAdCsjAdapter.framework'
-      ss.dependency 'Ads-CN', '~> 5.3.0.4'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -72,7 +74,6 @@ Pod::Spec.new do |s|
   # 广点通/优量汇
   s.subspec 'ABUAdGdtAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdGdtAdapter_4.14.30.0/ABUAdGdtAdapter/ABUAdGdtAdapter.framework'
-      ss.dependency 'GDTMobSDK', '~> 4.14.30'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -80,7 +81,6 @@ Pod::Spec.new do |s|
   # 游可赢
   s.subspec 'ABUAdKlevinAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdKlevinAdapter_2.11.0.211.0/ABUAdKlevinAdapter/ABUAdKlevinAdapter.framework'
-      ss.dependency 'KlevinAdSDK', '~> 2.11.0.215'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -88,7 +88,6 @@ Pod::Spec.new do |s|
   # 快手
   s.subspec 'ABUAdKsAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdKsAdapter_3.3.42.0/ABUAdKsAdapter/ABUAdKsAdapter.framework'
-      ss.dependency 'KSAdSDK', '~> 3.3.46'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -96,7 +95,6 @@ Pod::Spec.new do |s|
   # MintegralAdSDK
   s.subspec 'ABUAdMintegralAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdMintegralAdapter_7.3.4.0.0/ABUAdMintegralAdapter/ABUAdMintegralAdapter.framework'
-      s.dependency 'MintegralAdSDK', '~> 7.3.8'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -104,7 +102,6 @@ Pod::Spec.new do |s|
   # SigmobAd
   s.subspec 'ABUAdSigmobAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdSigmobAdapter_4.8.0.0/ABUAdSigmobAdapter/ABUAdSigmobAdapter.framework'
-      ss.dependency 'SigmobAd-iOS', '~> 4.9.2'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
@@ -112,12 +109,11 @@ Pod::Spec.new do |s|
   # UnityAds
   s.subspec 'ABUAdUnityAdapter' do |ss|
       ss.vendored_frameworks = 'CSJGroMore/SDKs/4.2.0.3/ABUAdUnityAdapter_4.3.0.0/ABUAdUnityAdapter/ABUAdUnityAdapter.framework'
-      ss.dependency 'UnityAds', '~> 4.7.1'
       ss.dependency 'CSJGroMore/Ads-Mediation-CN'
       ss.dependency "BURelyFoundation"
   end
 
-  # 3.GroMoreSDKDebug
+  # 3.GroMoreSDK调试
   
   # ABUVisualDebug
   s.subspec 'ABUVisualDebug' do |ss|
