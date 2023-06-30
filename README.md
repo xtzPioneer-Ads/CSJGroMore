@@ -2,7 +2,7 @@
 穿山甲GroMore广告SDK。
 
 ## 官方GroMore
-[穿山甲GroMore官方文档](https://www.csjplatform.com/union/media/union/download/detail?id=79&osType=ios&locale=zh-CN&backPath=/union/media/union/download/groMore)
+[穿山甲GroMore官方文档](https://www.csjplatform.com/union/media/union/download/groMore)
 <p>官方版本：4.3.0.0<br>
 <p>官方修订时间：2023-06-27<br>
 <p>官方修订说明：1.适配ADN版本，详见SDK前置说明模块<br>
