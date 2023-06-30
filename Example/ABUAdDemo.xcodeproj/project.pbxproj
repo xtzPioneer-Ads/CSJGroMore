@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		121F7A535F4B4B01A3F81861 /* Pods_ABUAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA20085B5C3E8586EA4B6B /* Pods_ABUAdDemo.framework */; };
 		2B05BB2127B4FA170018AE56 /* GroMoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */; };
 		2B05BB2E27B5087C0018AE56 /* GMMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2527B5087C0018AE56 /* GMMethod.m */; };
 		2B05BB2F27B5087C0018AE56 /* UIViewController+GMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05BB2627B5087C0018AE56 /* UIViewController+GMLog.m */; };
@@ -137,6 +136,7 @@
 		2BE940E227BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940E127BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m */; };
 		2BEB4D68281145A0005ED133 /* GromoreDemoController+DrawAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB4D67281145A0005ED133 /* GromoreDemoController+DrawAd.m */; };
 		2BF4054528C0AC0B00238912 /* libboringssl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF4054428C0ABC800238912 /* libboringssl.tbd */; };
+		5E776FAA2F448BE0332234BE /* Pods_ABUAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E741D42A8783E1D1BF373DE /* Pods_ABUAdDemo.framework */; };
 		7F9866122434513F009ECDA1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9866112434513F009ECDA1 /* AdSupport.framework */; };
 		7F98661424345148009ECDA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661324345148009ECDA1 /* CoreGraphics.framework */; };
 		7F98661624345157009ECDA1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661524345157009ECDA1 /* libsqlite3.0.tbd */; };
@@ -151,12 +151,12 @@
 		7FFA47AC2429B66D00707E3E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AB2429B66D00707E3E /* CoreMotion.framework */; };
 		7FFA47AF2429B75000707E3E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AE2429B75000707E3E /* libz.tbd */; };
 		85FBF16D5B3A96475EECBC67 /* ABUDrawAdView+CustomRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */; };
+		8A23D15C17C44439F468AC78 /* Pods_ABUAdDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34383194217687F2523BAC3 /* Pods_ABUAdDemoSwift.framework */; };
 		D013C89A25CCF559006E19E6 /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84825CCF558006E19E6 /* UIView+Draw.m */; };
 		D013C89B25CCF559006E19E6 /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84925CCF558006E19E6 /* NSString+Json.m */; };
 		D013C89C25CCF559006E19E6 /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84A25CCF558006E19E6 /* NSString+LocalizedString.m */; };
 		D0BBF65C25BD39E900097474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BBF65925BD39E900097474 /* Assets.xcassets */; };
 		D0D5238D264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */; };
-		EEE494BC768F6A9C96761205 /* Pods_ABUAdDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AE15D0FB80A7BC28C3FED3 /* Pods_ABUAdDemoSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -183,8 +183,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0896340C6C066C34C83C705A /* Pods-ABUAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		25AE15D0FB80A7BC28C3FED3 /* Pods_ABUAdDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15371139E775F480ECE929C5 /* Pods-ABUAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2B05BB1F27B4FA170018AE56 /* GroMoreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroMoreAppDelegate.h; sourceTree = "<group>"; };
 		2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroMoreAppDelegate.m; sourceTree = "<group>"; };
 		2B05BB2327B5087C0018AE56 /* GMLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLogViewController.h; sourceTree = "<group>"; };
@@ -274,7 +273,7 @@
 		2B91ECF628E2AB9F000BD524 /* UIImageView+GMDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GMDemo.h"; sourceTree = "<group>"; };
 		2BB3896727D9D26800FF0DCE /* GMInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMInvocation.h; sourceTree = "<group>"; };
 		2BB3896827D9D26800FF0DCE /* GMInvocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMInvocation.m; sourceTree = "<group>"; };
-		2BB389D127D9EFCD00FF0DCE /* ABUAdDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABUAdDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB389D127D9EFCD00FF0DCE /* ABUDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABUDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB389D627D9F0CE00FF0DCE /* GromoreDemoController+BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+BannerAd.swift"; sourceTree = "<group>"; };
 		2BB389D827DA0B0500FF0DCE /* GromoreDemoController+InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+InterstitialAd.swift"; sourceTree = "<group>"; };
 		2BB389DA27DA0FD500FF0DCE /* GromoreDemoController+SplashAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GromoreDemoController+SplashAd.swift"; sourceTree = "<group>"; };
@@ -316,7 +315,9 @@
 		2BF4054328C0AB6D00238912 /* libBacktraceRecording.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBacktraceRecording.tbd; path = usr/lib/libBacktraceRecording.tbd; sourceTree = SDKROOT; };
 		2BF4054428C0ABC800238912 /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
 		2BF4054628C0AC5400238912 /* libMainThreadChecker.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMainThreadChecker.tbd; path = usr/lib/libMainThreadChecker.tbd; sourceTree = SDKROOT; };
-		5EC9E3E5ADD35AB5D7E14581 /* Pods-ABUAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		45D691F0C53C9D95C3BE269A /* Pods-ABUAdDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6E741D42A8783E1D1BF373DE /* Pods_ABUAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E164B0E3E371951BE1E28E4 /* Pods-ABUAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7F2E598724582D7500AAD048 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7F9866112434513F009ECDA1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		7F98661324345148009ECDA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -324,7 +325,7 @@
 		7F98661924345168009ECDA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7F98661B24345173009ECDA1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7F98663324349AB5009ECDA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7FFA46BC2429B44000707E3E /* ABUAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABUAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFA46BC2429B44000707E3E /* ABUDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABUDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFA46C92429B44100707E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FFA46CE2429B44200707E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FFA46D02429B44200707E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -337,7 +338,7 @@
 		7FFA47AE2429B75000707E3E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ABUDrawAdView+CustomRender.m"; sourceTree = "<group>"; };
 		85FBFF9AC395965FAC8B344C /* ABUDrawAdView+CustomRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABUDrawAdView+CustomRender.h"; sourceTree = "<group>"; };
-		C29D6AFA5A0C2103FF5D1898 /* Pods-ABUAdDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9BFEFB9E72132CE4340B31D5 /* Pods-ABUAdDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D0105C8B25C3AA6B00D8DBFA /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		D013C84725CCF558006E19E6 /* NSString+LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalizedString.h"; sourceTree = "<group>"; };
 		D013C84825CCF558006E19E6 /* UIView+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
@@ -352,8 +353,7 @@
 		D0D5238B264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ABUZoomoutViewDraggable.h"; sourceTree = "<group>"; };
 		D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ABUZoomoutViewDraggable.m"; sourceTree = "<group>"; };
 		D0D523F5264BBA5C00AF8D2C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		EAC0FEA6D7B80E890D274F98 /* Pods-ABUAdDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
-		EBBA20085B5C3E8586EA4B6B /* Pods_ABUAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34383194217687F2523BAC3 /* Pods_ABUAdDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,7 +371,7 @@
 				2BB389C227D9EFCD00FF0DCE /* CoreMotion.framework in Frameworks */,
 				2BB389C327D9EFCD00FF0DCE /* libresolv.tbd in Frameworks */,
 				2BB389C427D9EFCD00FF0DCE /* libc++.tbd in Frameworks */,
-				EEE494BC768F6A9C96761205 /* Pods_ABUAdDemoSwift.framework in Frameworks */,
+				8A23D15C17C44439F468AC78 /* Pods_ABUAdDemoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +391,7 @@
 				7FFA47AC2429B66D00707E3E /* CoreMotion.framework in Frameworks */,
 				7FFA47AA2429B65C00707E3E /* libresolv.tbd in Frameworks */,
 				7FFA47A82429B65400707E3E /* libc++.tbd in Frameworks */,
-				121F7A535F4B4B01A3F81861 /* Pods_ABUAdDemo.framework in Frameworks */,
+				5E776FAA2F448BE0332234BE /* Pods_ABUAdDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +613,18 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		387CFF86960C7C047143F7A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E164B0E3E371951BE1E28E4 /* Pods-ABUAdDemo.debug.xcconfig */,
+				15371139E775F480ECE929C5 /* Pods-ABUAdDemo.release.xcconfig */,
+				45D691F0C53C9D95C3BE269A /* Pods-ABUAdDemoSwift.debug.xcconfig */,
+				9BFEFB9E72132CE4340B31D5 /* Pods-ABUAdDemoSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7F5A2A7E2429BF7A002273A9 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,17 +641,17 @@
 				7FFA46BE2429B44000707E3E /* ABUAdDemo */,
 				7FFA47862429B5DB00707E3E /* Frameworks */,
 				7FFA46BD2429B44000707E3E /* Products */,
-				9CF361E2AB0E4A36686A17BE /* Pods */,
+				387CFF86960C7C047143F7A8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		7FFA46BD2429B44000707E3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FFA46BC2429B44000707E3E /* ABUAdDemo.app */,
+				7FFA46BC2429B44000707E3E /* ABUDemo.app */,
 				7FFA46D72429B44200707E3E /* ABUDemoTests.xctest */,
 				7FFA46E22429B44200707E3E /* ABUDemoUITests.xctest */,
-				2BB389D127D9EFCD00FF0DCE /* ABUAdDemoSwift.app */,
+				2BB389D127D9EFCD00FF0DCE /* ABUDemoSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -677,8 +689,8 @@
 				7FFA47AB2429B66D00707E3E /* CoreMotion.framework */,
 				7FFA47A92429B65B00707E3E /* libresolv.tbd */,
 				7FFA47A72429B65400707E3E /* libc++.tbd */,
-				EBBA20085B5C3E8586EA4B6B /* Pods_ABUAdDemo.framework */,
-				25AE15D0FB80A7BC28C3FED3 /* Pods_ABUAdDemoSwift.framework */,
+				6E741D42A8783E1D1BF373DE /* Pods_ABUAdDemo.framework */,
+				F34383194217687F2523BAC3 /* Pods_ABUAdDemoSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -690,17 +702,6 @@
 				85FBFF9AC395965FAC8B344C /* ABUDrawAdView+CustomRender.h */,
 			);
 			path = DrawAdView;
-			sourceTree = "<group>";
-		};
-		9CF361E2AB0E4A36686A17BE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0896340C6C066C34C83C705A /* Pods-ABUAdDemo.debug.xcconfig */,
-				5EC9E3E5ADD35AB5D7E14581 /* Pods-ABUAdDemo.release.xcconfig */,
-				C29D6AFA5A0C2103FF5D1898 /* Pods-ABUAdDemoSwift.debug.xcconfig */,
-				EAC0FEA6D7B80E890D274F98 /* Pods-ABUAdDemoSwift.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		D013C84425CCF558006E19E6 /* App */ = {
@@ -766,14 +767,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BB389CE27D9EFCD00FF0DCE /* Build configuration list for PBXNativeTarget "ABUAdDemoSwift" */;
 			buildPhases = (
-				87CBBE8ABB2591AD2F55C518 /* [CP] Check Pods Manifest.lock */,
+				A4B1B2A3488ACA82988C1EAD /* [CP] Check Pods Manifest.lock */,
 				2BB3896C27D9EFCD00FF0DCE /* Sources */,
 				2BB389BA27D9EFCD00FF0DCE /* Frameworks */,
 				2BB389C627D9EFCD00FF0DCE /* Resources */,
 				2BB389CA27D9EFCD00FF0DCE /* Embed Frameworks */,
 				2BB389CD27D9EFCD00FF0DCE /* ShellScript */,
-				0362A7AB0FD77F254F82F3D5 /* [CP] Copy Pods Resources */,
-				FAF18308F2700FE4F3E70AE1 /* [CP] Embed Pods Frameworks */,
+				3E4CEE28E09126F0B4333B88 /* [CP] Embed Pods Frameworks */,
+				87A3EA6198DFAB62FEFB365C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -781,22 +782,22 @@
 			);
 			name = ABUAdDemoSwift;
 			productName = ABUDemo;
-			productReference = 2BB389D127D9EFCD00FF0DCE /* ABUAdDemoSwift.app */;
+			productReference = 2BB389D127D9EFCD00FF0DCE /* ABUDemoSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7FFA46BB2429B44000707E3E /* ABUAdDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FFA46EB2429B44200707E3E /* Build configuration list for PBXNativeTarget "ABUAdDemo" */;
 			buildPhases = (
-				D81E7BE21E428C5C7BBD187D /* [CP] Check Pods Manifest.lock */,
+				027FDE26307F4B44643D745A /* [CP] Check Pods Manifest.lock */,
 				7FFA46B82429B44000707E3E /* Sources */,
 				7FFA46B92429B44000707E3E /* Frameworks */,
 				7FFA46BA2429B44000707E3E /* Resources */,
 				0F5CFD6F256FA4860018C2B1 /* Embed Frameworks */,
 				2B2BB9E82630302800DE4743 /* ShellScript */,
 				2B02746828101ABF00B8018D /* [User] Upload DSYM */,
-				971A446ECDA9796499EE8D35 /* [CP] Copy Pods Resources */,
-				F94F8CA082DB73FBB1B98CEC /* [CP] Embed Pods Frameworks */,
+				0ADDE82E6969CCA048CDB43C /* [CP] Embed Pods Frameworks */,
+				126FF85A62F47FA611553D5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -804,7 +805,7 @@
 			);
 			name = ABUAdDemo;
 			productName = ABUDemo;
-			productReference = 7FFA46BC2429B44000707E3E /* ABUAdDemo.app */;
+			productReference = 7FFA46BC2429B44000707E3E /* ABUDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -819,6 +820,14 @@
 					7FFA46BB2429B44000707E3E = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1300;
+					};
+					7FFA46D62429B44200707E3E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7FFA46BB2429B44000707E3E;
+					};
+					7FFA46E12429B44200707E3E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7FFA46BB2429B44000707E3E;
 					};
 				};
 			};
@@ -866,21 +875,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0362A7AB0FD77F254F82F3D5 /* [CP] Copy Pods Resources */ = {
+		027FDE26307F4B44643D745A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ADDE82E6969CCA048CDB43C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		126FF85A62F47FA611553D5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2B02746828101ABF00B8018D /* [User] Upload DSYM */ = {
@@ -935,7 +983,41 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nREVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n    \"${BUILD_SCRIPT_PATH}\"\nelse\n    echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n";
 		};
-		87CBBE8ABB2591AD2F55C518 /* [CP] Check Pods Manifest.lock */ = {
+		3E4CEE28E09126F0B4333B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A3EA6198DFAB62FEFB365C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B1B2A3488ACA82988C1EAD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -955,79 +1037,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		971A446ECDA9796499EE8D35 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D81E7BE21E428C5C7BBD187D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F94F8CA082DB73FBB1B98CEC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FAF18308F2700FE4F3E70AE1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1190,7 +1199,7 @@
 /* Begin XCBuildConfiguration section */
 		2BB389CF27D9EFCD00FF0DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C29D6AFA5A0C2103FF5D1898 /* Pods-ABUAdDemoSwift.debug.xcconfig */;
+			baseConfigurationReference = 45D691F0C53C9D95C3BE269A /* Pods-ABUAdDemoSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1215,7 +1224,7 @@
 				);
 				GM_DISPLAY_NAME = "GM-swift";
 				INFOPLIST_FILE = ABUAdDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1247,7 +1256,7 @@
 		};
 		2BB389D027D9EFCD00FF0DCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC0FEA6D7B80E890D274F98 /* Pods-ABUAdDemoSwift.release.xcconfig */;
+			baseConfigurationReference = 9BFEFB9E72132CE4340B31D5 /* Pods-ABUAdDemoSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1272,7 +1281,7 @@
 				);
 				GM_DISPLAY_NAME = "GM-swift";
 				INFOPLIST_FILE = ABUAdDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1351,7 +1360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1403,7 +1412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1413,7 +1422,7 @@
 		};
 		7FFA46EC2429B44200707E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0896340C6C066C34C83C705A /* Pods-ABUAdDemo.debug.xcconfig */;
+			baseConfigurationReference = 7E164B0E3E371951BE1E28E4 /* Pods-ABUAdDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1438,7 +1447,7 @@
 				);
 				GM_DISPLAY_NAME = "GM-OC";
 				INFOPLIST_FILE = ABUAdDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1470,7 +1479,7 @@
 		};
 		7FFA46ED2429B44200707E3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EC9E3E5ADD35AB5D7E14581 /* Pods-ABUAdDemo.release.xcconfig */;
+			baseConfigurationReference = 15371139E775F480ECE929C5 /* Pods-ABUAdDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1495,7 +1504,7 @@
 				);
 				GM_DISPLAY_NAME = "GM-OC";
 				INFOPLIST_FILE = ABUAdDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

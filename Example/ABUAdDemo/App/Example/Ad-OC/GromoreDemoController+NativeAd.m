@@ -86,7 +86,7 @@
 - (void)nativeAdDidBecomeVisible:(ABUNativeAdView *_Nonnull)nativeAdView {
     
     // 展示后可获取信息如下
-    [self logAdInfoAfterShow];
+    [self logNativeAdViewInfoAfterShow];
 }
 
 - (void)nativeAdExpressView:(ABUNativeAdView *_Nonnull)nativeAdView stateDidChanged:(ABUPlayerPlayState)playerState {
@@ -146,7 +146,7 @@
     self.nativeAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logNativeAdViewInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.nativeAdView getShowEcpmInfo]);
 }

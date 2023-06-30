@@ -64,7 +64,7 @@
 - (void)bannerAdDidBecomeVisible:(ABUBannerAd *)bannerAd bannerView:(UIView *)bannerView {
     
     // 加载后打印ad信息
-    [self logAdInfoAfterShow];
+    [self logBannerAdInfoAfterShow];
 }
 
 /// 广告点击回调
@@ -97,7 +97,7 @@
     self.bannerAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logBannerAdInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.bannerAd getShowEcpmInfo]);
 }

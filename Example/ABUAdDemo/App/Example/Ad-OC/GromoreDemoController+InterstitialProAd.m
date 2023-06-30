@@ -69,7 +69,7 @@
 - (void)interstitialProAdDidVisible:(ABUInterstitialProAd *)interstitialProAd {
     
     // 展示后可获取信息如下
-    [self logAdInfoAfterShow];
+    [self logInterstitialProAdInfoAfterShow];
 }
 
 - (void)interstitialProAdDidShowFailed:(ABUInterstitialProAd *)interstitialProAd error:(NSError *)error {
@@ -108,7 +108,7 @@
     self.interstitialProAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logInterstitialProAdInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.interstitialProAd getShowEcpmInfo]);
 }

@@ -70,7 +70,7 @@
 - (void)fullscreenVideoAdDidVisible:(ABUFullscreenVideoAd *)fullscreenVideoAd {
     
     // 展示后可获取信息如下
-    [self logAdInfoAfterShow];
+    [self logFullscreenVideoAdInfoAfterShow];
 }
 
 - (void)fullscreenVideoAdDidShowFailed:(ABUFullscreenVideoAd *)fullscreenVideoAd error:(NSError *)error {
@@ -112,7 +112,7 @@
     self.fullscreenVideoAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logFullscreenVideoAdInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.fullscreenVideoAd getShowEcpmInfo]);
 }

@@ -97,7 +97,7 @@
 }
 
 - (void)drawAdDidBecomeVisible:(ABUDrawAdView *_Nonnull)drawAdView {
-    
+    [self logDrawAdViewInfoAfterShow];
 }
 
 - (void)drawAdView:(ABUDrawAdView *_Nonnull)drawAdView stateDidChanged:(ABUPlayerPlayState)playerState {
@@ -165,7 +165,7 @@
     self.drawAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logDrawAdViewInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.drawAdView getShowEcpmInfo]);
 }

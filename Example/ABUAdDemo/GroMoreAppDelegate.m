@@ -36,29 +36,22 @@
 
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
-    
-#pragma mark 设定流量分组
-    [self userSegmentSetting];
-    
-#pragma mark 隐私配置设置
-    [self privateSetting];
-    
+        
 #pragma mark 初始化Gromore SDK
     if (@available(iOS 14, *)) {
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
-            [self initGromoreSDK];
+            [self startGromoreSDK];
         }];
     } else {
-        [self initGromoreSDK];
+        [self startGromoreSDK];
     }
     return YES;
 }
 
-/// 初始化Gromore SDK
-- (void)initGromoreSDK {
-
+/// 使用Gromore SDK
+- (void)startGromoreSDK {
     // Gromore SDK初始化方法
-    [ABUAdSDKManager setupSDKWithAppId:@"5000546" config:^ABUUserConfig *(ABUUserConfig *c) {
+    [ABUAdSDKManager initSDKWithAppId:@"5000546" config:^ABUUserConfig *(ABUUserConfig *c) {
 #ifdef DEBUG
         // 打开日志开关，线上环境请关闭
         c.logEnable = YES;
@@ -70,6 +63,13 @@
         return c;
     }];
     
+    // 隐私配置设置
+    [self privateSetting];
+    
+    // 设定流量分组
+    [self userSegmentSetting];
+    
+    [ABUAdSDKManager setup];
     // [可选]在初始化完毕后调用首次预缓存
     if (NO) { // 如需测试该功能，修改 NO->YES
         [self preloadAdsConfig];

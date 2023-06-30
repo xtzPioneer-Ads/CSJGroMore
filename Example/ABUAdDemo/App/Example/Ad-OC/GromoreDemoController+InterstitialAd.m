@@ -60,7 +60,7 @@
 /// 展示成功回调
 - (void)interstitialAdDidVisible:(ABUInterstitialAd *)interstitialAd {
     
-    [self logAdInfoAfterShow];
+    [self logInterstitialAdInfoAfterShow];
 }
 
 - (void)interstitialAdDidShowFailed:(ABUInterstitialAd *)interstitialAd error:(NSError *)error {
@@ -84,7 +84,7 @@
     self.interstitialAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logInterstitialAdInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.interstitialAd getShowEcpmInfo]);
 }

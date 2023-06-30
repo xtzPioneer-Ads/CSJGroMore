@@ -82,7 +82,7 @@
 - (void)splashAdWillVisible:(ABUSplashAd *)splashAd {
     
     // 展示后可获取信息如下
-    [self logAdInfoAfterShow];
+    [self logSplashAdInfoAfterShow];
 }
 
 - (void)splashAdDidShowFailed:(ABUSplashAd *)splashAd error:(NSError *)error {
@@ -162,7 +162,7 @@
     self.splashAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logSplashAdInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.splashAd getShowEcpmInfo]);
 }

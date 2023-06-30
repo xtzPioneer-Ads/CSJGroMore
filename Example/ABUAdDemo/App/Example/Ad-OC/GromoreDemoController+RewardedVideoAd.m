@@ -69,7 +69,7 @@
 // 展示成功回调
 - (void)rewardedVideoAdDidVisible:(ABURewardedVideoAd *)rewardedVideoAd {
     // 展示后可获取信息如下
-    [self logAdInfoAfterShow];
+    [self logRewardedVideoAdInfoAfterShow];
 }
 
 - (void)rewardedVideoAdDidShowFailed:(ABURewardedVideoAd *)rewardedVideoAd error:(NSError *)error {
@@ -111,7 +111,7 @@
     self.rewardedVideoAd = nil;
 }
 
-- (void)logAdInfoAfterShow {
+- (void)logRewardedVideoAdInfoAfterShow {
     // 展示后可获取信息如下
     ABUD_Log(@"%@", [self.rewardedVideoAd getShowEcpmInfo]);
 }
