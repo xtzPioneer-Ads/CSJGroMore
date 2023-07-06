@@ -19,49 +19,49 @@ PODS:
   - BURelyFoundation/HM (0.3.0.3)
   - BURelyFoundation/NETWork (0.3.0.3):
     - BURelyFoundation/AFNetworking
-  - CSJGroMore (4.3.0.0):
-    - CSJGroMore/ABUAdAdmobAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdBaiduAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdCsjAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdGdtAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdKlevinAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdKsAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdMintegralAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdSigmobAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUAdUnityAdapter (= 4.3.0.0)
-    - CSJGroMore/ABUVisualDebug (= 4.3.0.0)
-    - CSJGroMore/Ads-Mediation-CN (= 4.3.0.0)
-  - CSJGroMore/ABUAdAdmobAdapter (4.3.0.0):
+  - CSJGroMore (4.3.0.1):
+    - CSJGroMore/ABUAdAdmobAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdBaiduAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdCsjAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdGdtAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdKlevinAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdKsAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdMintegralAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdSigmobAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUAdUnityAdapter (= 4.3.0.1)
+    - CSJGroMore/ABUVisualDebug (= 4.3.0.1)
+    - CSJGroMore/Ads-Mediation-CN (= 4.3.0.1)
+  - CSJGroMore/ABUAdAdmobAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdBaiduAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdBaiduAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdCsjAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdCsjAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdGdtAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdGdtAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdKlevinAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdKlevinAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdKsAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdKsAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdMintegralAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdMintegralAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdSigmobAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdSigmobAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdUnityAdapter (4.3.0.0):
+  - CSJGroMore/ABUAdUnityAdapter (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUVisualDebug (4.3.0.0):
+  - CSJGroMore/ABUVisualDebug (4.3.0.1):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/Ads-Mediation-CN (4.3.0.0):
+  - CSJGroMore/Ads-Mediation-CN (4.3.0.1):
     - BURelyFoundation
   - GDTMobSDK (4.14.31):
     - GDTMobSDK/GDTMobSDK (= 4.14.31)
@@ -109,40 +109,40 @@ PODS:
     - GoogleUtilities/Logger
   - KlevinAdSDK (2.11.0.215)
   - KSAdSDK (3.3.47)
-  - MintegralAdSDK (7.3.8):
-    - MintegralAdSDK/BannerAd (= 7.3.8)
-    - MintegralAdSDK/BidBannerAd (= 7.3.8)
-    - MintegralAdSDK/BidInterstitialVideoAd (= 7.3.8)
-    - MintegralAdSDK/BidNativeAd (= 7.3.8)
-    - MintegralAdSDK/BidNewInterstitialAd (= 7.3.8)
-    - MintegralAdSDK/BidRewardVideoAd (= 7.3.8)
-    - MintegralAdSDK/InterstitialVideoAd (= 7.3.8)
-    - MintegralAdSDK/NativeAd (= 7.3.8)
-    - MintegralAdSDK/NewInterstitialAd (= 7.3.8)
-    - MintegralAdSDK/RewardVideoAd (= 7.3.8)
-  - MintegralAdSDK/BannerAd (7.3.8):
+  - MintegralAdSDK (7.3.9):
+    - MintegralAdSDK/BannerAd (= 7.3.9)
+    - MintegralAdSDK/BidBannerAd (= 7.3.9)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 7.3.9)
+    - MintegralAdSDK/BidNativeAd (= 7.3.9)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.3.9)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.3.9)
+    - MintegralAdSDK/InterstitialVideoAd (= 7.3.9)
+    - MintegralAdSDK/NativeAd (= 7.3.9)
+    - MintegralAdSDK/NewInterstitialAd (= 7.3.9)
+    - MintegralAdSDK/RewardVideoAd (= 7.3.9)
+  - MintegralAdSDK/BannerAd (7.3.9):
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/BidBannerAd (7.3.8):
+  - MintegralAdSDK/BidBannerAd (7.3.9):
     - MintegralAdSDK/BannerAd
     - MintegralAdSDK/BidNativeAd
-  - MintegralAdSDK/BidInterstitialVideoAd (7.3.8):
+  - MintegralAdSDK/BidInterstitialVideoAd (7.3.9):
     - MintegralAdSDK/BidNativeAd
     - MintegralAdSDK/InterstitialVideoAd
-  - MintegralAdSDK/BidNativeAd (7.3.8):
+  - MintegralAdSDK/BidNativeAd (7.3.9):
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/BidNewInterstitialAd (7.3.8):
+  - MintegralAdSDK/BidNewInterstitialAd (7.3.9):
     - MintegralAdSDK/BidNativeAd
     - MintegralAdSDK/NewInterstitialAd
-  - MintegralAdSDK/BidRewardVideoAd (7.3.8):
+  - MintegralAdSDK/BidRewardVideoAd (7.3.9):
     - MintegralAdSDK/BidNativeAd
     - MintegralAdSDK/RewardVideoAd
-  - MintegralAdSDK/InterstitialVideoAd (7.3.8):
+  - MintegralAdSDK/InterstitialVideoAd (7.3.9):
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/NativeAd (7.3.8)
-  - MintegralAdSDK/NewInterstitialAd (7.3.8):
+  - MintegralAdSDK/NativeAd (7.3.9)
+  - MintegralAdSDK/NewInterstitialAd (7.3.9):
     - MintegralAdSDK/InterstitialVideoAd
     - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/RewardVideoAd (7.3.8):
+  - MintegralAdSDK/RewardVideoAd (7.3.9):
     - MintegralAdSDK/NativeAd
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
@@ -193,7 +193,7 @@ SPEC CHECKSUMS:
   Ads-CN: b87c8df100e37fbfd12feca669c6486d788ea7ad
   BaiduMobAdSDK: efc372d6161538429fa69aed373d7edcef88faa4
   BURelyFoundation: 7de2625b5c23a689b82ce9820f9231dcd1f8f739
-  CSJGroMore: ef46d7645f6c007fb17c6315f41f7a62f556dfec
+  CSJGroMore: 9dd8f0c7e74962a3c384113ae8b3f6f4d6b71449
   GDTMobSDK: 6b5dfb8973c5444fdceb41109a5738645d61ea7c
   Google-Mobile-Ads-SDK: 07599a44221fb3f00d111d5c2f4e27549f8dbf21
   GoogleAppMeasurement: d3dabccdb336fc0ae44b633c8abaa26559893cd9
@@ -201,7 +201,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
   KlevinAdSDK: 2c6ffc91dae6d82868d2ebde2eb63464235cbacb
   KSAdSDK: 65d55e121f014d0ed690692356a14c7de1b35d8e
-  MintegralAdSDK: 3b8edca477aecef338e484235090a61578795c07
+  MintegralAdSDK: 82fd9e38acfc6e7d116b1bd6f1df50e5273567af
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   SigmobAd-iOS: aae20b3b284928139215a8e626eeeaf3778a3f35

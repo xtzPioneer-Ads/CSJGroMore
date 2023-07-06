@@ -3,10 +3,9 @@
 
 ## 官方GroMore
 [穿山甲GroMore官方文档](https://www.csjplatform.com/union/media/union/download/groMore)
-<p>官方版本：4.3.0.0<br>
-<p>官方修订时间：2023-06-27<br>
-<p>官方修订说明：1.适配ADN版本，详见SDK前置说明模块<br>
-<p>官方修订说明：2.修复已知问题，性能优化<br>
+<p>官方版本：4.3.0.1<br>
+<p>官方修订时间：2023-07-05<br>
+<p>官方修订说明：1.修复已知问题<br>
 
 ## 使用CocoaPods安装
 ```ruby
@@ -14,7 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/xtzPioneer-Ads/AdsSpecs.git'
 ```
 ```ruby
-pod 'CSJGroMore', '~> 4.3.0.0'
+pod 'CSJGroMore', '~> 4.3.0.1'
 pod 'Ads-CN', '~> 5.3.0.4'
 ```
 ```ruby
@@ -42,6 +41,8 @@ end
 见Example
 
 ## 版本&更新
+#### 官方版本：4.3.0.1 官方修订时间：2023-07-05
+<p>修复已知问题<br>
 
 #### 官方版本：4.3.0.0 官方修订时间：2023-06-27
 <p>1.适配ADN版本，详见SDK前置说明模块<br>

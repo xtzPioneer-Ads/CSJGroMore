@@ -136,7 +136,7 @@
 		2BE940E227BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE940E127BA311F00E8997E /* GromoreDemoController+InterstitialProAd.m */; };
 		2BEB4D68281145A0005ED133 /* GromoreDemoController+DrawAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB4D67281145A0005ED133 /* GromoreDemoController+DrawAd.m */; };
 		2BF4054528C0AC0B00238912 /* libboringssl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF4054428C0ABC800238912 /* libboringssl.tbd */; };
-		5E776FAA2F448BE0332234BE /* Pods_ABUAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E741D42A8783E1D1BF373DE /* Pods_ABUAdDemo.framework */; };
+		34BF53E3CBC0ABC24A7E9507 /* Pods_ABUAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FB4C43FE59DDD506DC156 /* Pods_ABUAdDemo.framework */; };
 		7F9866122434513F009ECDA1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9866112434513F009ECDA1 /* AdSupport.framework */; };
 		7F98661424345148009ECDA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661324345148009ECDA1 /* CoreGraphics.framework */; };
 		7F98661624345157009ECDA1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98661524345157009ECDA1 /* libsqlite3.0.tbd */; };
@@ -151,12 +151,12 @@
 		7FFA47AC2429B66D00707E3E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AB2429B66D00707E3E /* CoreMotion.framework */; };
 		7FFA47AF2429B75000707E3E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA47AE2429B75000707E3E /* libz.tbd */; };
 		85FBF16D5B3A96475EECBC67 /* ABUDrawAdView+CustomRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */; };
-		8A23D15C17C44439F468AC78 /* Pods_ABUAdDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34383194217687F2523BAC3 /* Pods_ABUAdDemoSwift.framework */; };
 		D013C89A25CCF559006E19E6 /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84825CCF558006E19E6 /* UIView+Draw.m */; };
 		D013C89B25CCF559006E19E6 /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84925CCF558006E19E6 /* NSString+Json.m */; };
 		D013C89C25CCF559006E19E6 /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D013C84A25CCF558006E19E6 /* NSString+LocalizedString.m */; };
 		D0BBF65C25BD39E900097474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BBF65925BD39E900097474 /* Assets.xcassets */; };
 		D0D5238D264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */; };
+		E11E96509FDF5EE95F692E04 /* Pods_ABUAdDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AF4A025ABA5FD0FECCD7C /* Pods_ABUAdDemoSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -183,7 +183,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		15371139E775F480ECE929C5 /* Pods-ABUAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		01C6EF6F7C1EB989262D2B63 /* Pods-ABUAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2B05BB1F27B4FA170018AE56 /* GroMoreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroMoreAppDelegate.h; sourceTree = "<group>"; };
 		2B05BB2027B4FA170018AE56 /* GroMoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroMoreAppDelegate.m; sourceTree = "<group>"; };
 		2B05BB2327B5087C0018AE56 /* GMLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLogViewController.h; sourceTree = "<group>"; };
@@ -315,9 +315,11 @@
 		2BF4054328C0AB6D00238912 /* libBacktraceRecording.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBacktraceRecording.tbd; path = usr/lib/libBacktraceRecording.tbd; sourceTree = SDKROOT; };
 		2BF4054428C0ABC800238912 /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
 		2BF4054628C0AC5400238912 /* libMainThreadChecker.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMainThreadChecker.tbd; path = usr/lib/libMainThreadChecker.tbd; sourceTree = SDKROOT; };
-		45D691F0C53C9D95C3BE269A /* Pods-ABUAdDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		6E741D42A8783E1D1BF373DE /* Pods_ABUAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E164B0E3E371951BE1E28E4 /* Pods-ABUAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E4AF4A025ABA5FD0FECCD7C /* Pods_ABUAdDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4744F6F6C40F0151A80BA95E /* Pods-ABUAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		63E21D621D82E3DE982442DE /* Pods-ABUAdDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.debug.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA7D22632CFFA7C0BF37CAD /* Pods-ABUAdDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7B6FB4C43FE59DDD506DC156 /* Pods_ABUAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2E598724582D7500AAD048 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7F9866112434513F009ECDA1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		7F98661324345148009ECDA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -338,7 +340,6 @@
 		7FFA47AE2429B75000707E3E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		85FBF9CF1A0116B599A0EDD4 /* ABUDrawAdView+CustomRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ABUDrawAdView+CustomRender.m"; sourceTree = "<group>"; };
 		85FBFF9AC395965FAC8B344C /* ABUDrawAdView+CustomRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABUDrawAdView+CustomRender.h"; sourceTree = "<group>"; };
-		9BFEFB9E72132CE4340B31D5 /* Pods-ABUAdDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABUAdDemoSwift.release.xcconfig"; path = "Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D0105C8B25C3AA6B00D8DBFA /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		D013C84725CCF558006E19E6 /* NSString+LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalizedString.h"; sourceTree = "<group>"; };
 		D013C84825CCF558006E19E6 /* UIView+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
@@ -353,7 +354,6 @@
 		D0D5238B264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ABUZoomoutViewDraggable.h"; sourceTree = "<group>"; };
 		D0D5238C264A923300AF8D2C /* UIView+ABUZoomoutViewDraggable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ABUZoomoutViewDraggable.m"; sourceTree = "<group>"; };
 		D0D523F5264BBA5C00AF8D2C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		F34383194217687F2523BAC3 /* Pods_ABUAdDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABUAdDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,7 +371,7 @@
 				2BB389C227D9EFCD00FF0DCE /* CoreMotion.framework in Frameworks */,
 				2BB389C327D9EFCD00FF0DCE /* libresolv.tbd in Frameworks */,
 				2BB389C427D9EFCD00FF0DCE /* libc++.tbd in Frameworks */,
-				8A23D15C17C44439F468AC78 /* Pods_ABUAdDemoSwift.framework in Frameworks */,
+				E11E96509FDF5EE95F692E04 /* Pods_ABUAdDemoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +391,7 @@
 				7FFA47AC2429B66D00707E3E /* CoreMotion.framework in Frameworks */,
 				7FFA47AA2429B65C00707E3E /* libresolv.tbd in Frameworks */,
 				7FFA47A82429B65400707E3E /* libc++.tbd in Frameworks */,
-				5E776FAA2F448BE0332234BE /* Pods_ABUAdDemo.framework in Frameworks */,
+				34BF53E3CBC0ABC24A7E9507 /* Pods_ABUAdDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,18 +613,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		387CFF86960C7C047143F7A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7E164B0E3E371951BE1E28E4 /* Pods-ABUAdDemo.debug.xcconfig */,
-				15371139E775F480ECE929C5 /* Pods-ABUAdDemo.release.xcconfig */,
-				45D691F0C53C9D95C3BE269A /* Pods-ABUAdDemoSwift.debug.xcconfig */,
-				9BFEFB9E72132CE4340B31D5 /* Pods-ABUAdDemoSwift.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		7F5A2A7E2429BF7A002273A9 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -641,7 +629,7 @@
 				7FFA46BE2429B44000707E3E /* ABUAdDemo */,
 				7FFA47862429B5DB00707E3E /* Frameworks */,
 				7FFA46BD2429B44000707E3E /* Products */,
-				387CFF86960C7C047143F7A8 /* Pods */,
+				8E705854850CC98791E4C969 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -689,8 +677,8 @@
 				7FFA47AB2429B66D00707E3E /* CoreMotion.framework */,
 				7FFA47A92429B65B00707E3E /* libresolv.tbd */,
 				7FFA47A72429B65400707E3E /* libc++.tbd */,
-				6E741D42A8783E1D1BF373DE /* Pods_ABUAdDemo.framework */,
-				F34383194217687F2523BAC3 /* Pods_ABUAdDemoSwift.framework */,
+				7B6FB4C43FE59DDD506DC156 /* Pods_ABUAdDemo.framework */,
+				3E4AF4A025ABA5FD0FECCD7C /* Pods_ABUAdDemoSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -702,6 +690,18 @@
 				85FBFF9AC395965FAC8B344C /* ABUDrawAdView+CustomRender.h */,
 			);
 			path = DrawAdView;
+			sourceTree = "<group>";
+		};
+		8E705854850CC98791E4C969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4744F6F6C40F0151A80BA95E /* Pods-ABUAdDemo.debug.xcconfig */,
+				01C6EF6F7C1EB989262D2B63 /* Pods-ABUAdDemo.release.xcconfig */,
+				63E21D621D82E3DE982442DE /* Pods-ABUAdDemoSwift.debug.xcconfig */,
+				6BA7D22632CFFA7C0BF37CAD /* Pods-ABUAdDemoSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D013C84425CCF558006E19E6 /* App */ = {
@@ -767,14 +767,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BB389CE27D9EFCD00FF0DCE /* Build configuration list for PBXNativeTarget "ABUAdDemoSwift" */;
 			buildPhases = (
-				A4B1B2A3488ACA82988C1EAD /* [CP] Check Pods Manifest.lock */,
+				96ED000E0CC5D7617910379E /* [CP] Check Pods Manifest.lock */,
 				2BB3896C27D9EFCD00FF0DCE /* Sources */,
 				2BB389BA27D9EFCD00FF0DCE /* Frameworks */,
 				2BB389C627D9EFCD00FF0DCE /* Resources */,
 				2BB389CA27D9EFCD00FF0DCE /* Embed Frameworks */,
 				2BB389CD27D9EFCD00FF0DCE /* ShellScript */,
-				3E4CEE28E09126F0B4333B88 /* [CP] Embed Pods Frameworks */,
-				87A3EA6198DFAB62FEFB365C /* [CP] Copy Pods Resources */,
+				10AB2C52611749F295EF1544 /* [CP] Embed Pods Frameworks */,
+				787A58609BD251F32297220E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -789,15 +789,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FFA46EB2429B44200707E3E /* Build configuration list for PBXNativeTarget "ABUAdDemo" */;
 			buildPhases = (
-				027FDE26307F4B44643D745A /* [CP] Check Pods Manifest.lock */,
+				EC68908A6CA8DD7B4CC79132 /* [CP] Check Pods Manifest.lock */,
 				7FFA46B82429B44000707E3E /* Sources */,
 				7FFA46B92429B44000707E3E /* Frameworks */,
 				7FFA46BA2429B44000707E3E /* Resources */,
 				0F5CFD6F256FA4860018C2B1 /* Embed Frameworks */,
 				2B2BB9E82630302800DE4743 /* ShellScript */,
 				2B02746828101ABF00B8018D /* [User] Upload DSYM */,
-				0ADDE82E6969CCA048CDB43C /* [CP] Embed Pods Frameworks */,
-				126FF85A62F47FA611553D5F /* [CP] Copy Pods Resources */,
+				7DCE66E7A5878F7B3B1ABB92 /* [CP] Embed Pods Frameworks */,
+				1513A4369BCBE61F5E65BC91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -875,46 +875,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		027FDE26307F4B44643D745A /* [CP] Check Pods Manifest.lock */ = {
+		10AB2C52611749F295EF1544 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0ADDE82E6969CCA048CDB43C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		126FF85A62F47FA611553D5F /* [CP] Copy Pods Resources */ = {
+		1513A4369BCBE61F5E65BC91 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -983,24 +961,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nREVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n    \"${BUILD_SCRIPT_PATH}\"\nelse\n    echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n";
 		};
-		3E4CEE28E09126F0B4333B88 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87A3EA6198DFAB62FEFB365C /* [CP] Copy Pods Resources */ = {
+		787A58609BD251F32297220E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1017,7 +978,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemoSwift/Pods-ABUAdDemoSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4B1B2A3488ACA82988C1EAD /* [CP] Check Pods Manifest.lock */ = {
+		7DCE66E7A5878F7B3B1ABB92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABUAdDemo/Pods-ABUAdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96ED000E0CC5D7617910379E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1033,6 +1011,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemoSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC68908A6CA8DD7B4CC79132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABUAdDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1199,7 +1199,7 @@
 /* Begin XCBuildConfiguration section */
 		2BB389CF27D9EFCD00FF0DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D691F0C53C9D95C3BE269A /* Pods-ABUAdDemoSwift.debug.xcconfig */;
+			baseConfigurationReference = 63E21D621D82E3DE982442DE /* Pods-ABUAdDemoSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1256,7 +1256,7 @@
 		};
 		2BB389D027D9EFCD00FF0DCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BFEFB9E72132CE4340B31D5 /* Pods-ABUAdDemoSwift.release.xcconfig */;
+			baseConfigurationReference = 6BA7D22632CFFA7C0BF37CAD /* Pods-ABUAdDemoSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1422,7 +1422,7 @@
 		};
 		7FFA46EC2429B44200707E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E164B0E3E371951BE1E28E4 /* Pods-ABUAdDemo.debug.xcconfig */;
+			baseConfigurationReference = 4744F6F6C40F0151A80BA95E /* Pods-ABUAdDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1479,7 +1479,7 @@
 		};
 		7FFA46ED2429B44200707E3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15371139E775F480ECE929C5 /* Pods-ABUAdDemo.release.xcconfig */;
+			baseConfigurationReference = 01C6EF6F7C1EB989262D2B63 /* Pods-ABUAdDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
