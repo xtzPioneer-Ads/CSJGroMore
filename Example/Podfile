@@ -5,31 +5,31 @@ platform :ios, '11.0'
 def pod_for_ads
   
   # 穿山甲
-  pod 'Ads-CN', '~> 5.3.0.4'
+  pod 'Ads-CN', '~> 5.4.1.1'
   
   # 广点通/优量汇
-  pod 'GDTMobSDK', '~> 4.14.30'
+  pod 'GDTMobSDK', '~> 4.14.32'
   
   # 快手
-  pod 'KSAdSDK', '~> 3.3.46'
+  pod 'KSAdSDK', '~> 3.3.49.1'
   
   # UnityAds
-  pod 'UnityAds', '~> 4.7.1'
+  pod 'UnityAds', '~> 4.8.0'
   
   # Admob/GoogleAd
-  pod 'Google-Mobile-Ads-SDK', '~> 10.6.0'
+  pod 'Google-Mobile-Ads-SDK', '~> 10.9.0'
   
   # 百度SDK
-  pod 'BaiduMobAdSDK', '~> 5.301'
+  pod 'BaiduMobAdSDK', '~> 5.311'
   
   # SigmobAd
-  pod 'SigmobAd-iOS', '~> 4.9.2'
+  pod 'SigmobAd-iOS', '~> 4.9.3'
   
   # 游可赢
   pod 'KlevinAdSDK', '~> 2.11.0.215'
   
   # MintegralAdSDK
-  pod 'MintegralAdSDK', '~> 7.3.8'
+  pod 'MintegralAdSDK', '~> 7.4.2'
   
 end
 

@@ -3,9 +3,10 @@
 
 ## 官方GroMore
 [穿山甲GroMore官方文档](https://www.csjplatform.com/union/media/union/download/groMore)
-<p>官方版本：4.3.0.1<br>
-<p>官方修订时间：2023-07-05<br>
-<p>官方修订说明：1.修复已知问题<br>
+<p>官方版本：4.3.0.2<br>
+<p>官方修订时间：2023-08-09<br>
+<p>官方修订说明：1.适配ADN版本，详见SDK前置说明模块；<br>
+<p>官方修订说明：2.修复已知问题，性能优化；<br>
 
 ## 使用CocoaPods安装
 ```ruby
@@ -13,18 +14,18 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/xtzPioneer-Ads/AdsSpecs.git'
 ```
 ```ruby
-pod 'CSJGroMore', '~> 4.3.0.1'
+pod 'CSJGroMore', '~> 4.3.0.2'
 pod 'Ads-CN', '~> 5.3.0.4'
 ```
 ```ruby
-pod 'GDTMobSDK', '~> 4.14.30'
-pod 'KSAdSDK', '~> 3.3.46'
-pod 'UnityAds', '~> 4.7.1'
-pod 'Google-Mobile-Ads-SDK', '~> 10.6.0'
-pod 'BaiduMobAdSDK', '~> 5.301'
-pod 'SigmobAd-iOS', '~> 4.9.2'
+pod 'GDTMobSDK', '~> 4.14.32'
+pod 'KSAdSDK', '~> 3.3.49.1'
+pod 'UnityAds', '~> 4.8.0'
+pod 'Google-Mobile-Ads-SDK', '~> 10.9.0'
+pod 'BaiduMobAdSDK', '~> 5.311'
+pod 'SigmobAd-iOS', '~> 4.9.3'
 pod 'KlevinAdSDK', '~> 2.11.0.215'
-pod 'MintegralAdSDK', '~> 7.3.8'
+pod 'MintegralAdSDK', '~> 7.4.2'
 ```
 ```ruby
 post_install do |installer|
@@ -41,6 +42,10 @@ end
 见Example
 
 ## 版本&更新
+#### 官方版本：4.3.0.2 官方修订时间：2023-08-09
+<p>适配ADN版本，详见SDK前置说明模块<br>
+<p>修复已知问题，性能优化<br>
+
 #### 官方版本：4.3.0.1 官方修订时间：2023-07-05
 <p>修复已知问题<br>
 
