@@ -25,11 +25,9 @@ PODS:
     - CSJGroMore/ABUAdCsjAdapter (= 4.3.0.2)
     - CSJGroMore/ABUAdGdtAdapter (= 4.3.0.2)
     - CSJGroMore/ABUAdKlevinAdapter (= 4.3.0.2)
-    - CSJGroMore/ABUAdKsAdapter (= 4.3.0.2)
     - CSJGroMore/ABUAdMintegralAdapter (= 4.3.0.2)
     - CSJGroMore/ABUAdSigmobAdapter (= 4.3.0.2)
     - CSJGroMore/ABUAdUnityAdapter (= 4.3.0.2)
-    - CSJGroMore/ABUVisualDebug (= 4.3.0.2)
     - CSJGroMore/Ads-Mediation-CN (= 4.3.0.2)
   - CSJGroMore/ABUAdAdmobAdapter (4.3.0.2):
     - BURelyFoundation
@@ -44,9 +42,6 @@ PODS:
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
   - CSJGroMore/ABUAdKlevinAdapter (4.3.0.2):
-    - BURelyFoundation
-    - CSJGroMore/Ads-Mediation-CN
-  - CSJGroMore/ABUAdKsAdapter (4.3.0.2):
     - BURelyFoundation
     - CSJGroMore/Ads-Mediation-CN
   - CSJGroMore/ABUAdMintegralAdapter (4.3.0.2):
@@ -159,6 +154,7 @@ DEPENDENCIES:
   - Ads-CN (~> 5.4.1.1)
   - BaiduMobAdSDK (~> 5.311)
   - CSJGroMore (from `../`)
+  - CSJGroMore/ABUVisualDebug (from `../`)
   - GDTMobSDK (~> 4.14.32)
   - Google-Mobile-Ads-SDK (~> 10.9.0)
   - KlevinAdSDK (~> 2.11.0.215)
@@ -193,7 +189,7 @@ SPEC CHECKSUMS:
   Ads-CN: 3508386d037d0b2c2d765c3ab9b4c98d1275ec50
   BaiduMobAdSDK: dc88bb5e9cdfb070cbb228e4b1cc3ff8b5575b6a
   BURelyFoundation: f6dc8547c858e7f97c1a0ec31a0c81b62f657892
-  CSJGroMore: 27d2ebe56624fafdb574bb73b73f1b77e49d3d96
+  CSJGroMore: a03538974fe4286f8d1b1a0e257f829331022c89
   GDTMobSDK: f67eaea373e379cc7151a76fa94de3ac5123426d
   Google-Mobile-Ads-SDK: e81e8b009a182dc8dd14951782efdbb30a5e4510
   GoogleAppMeasurement: 3ae505b44174bcc0775f5c86cecc5826259fbb1e
@@ -207,6 +203,6 @@ SPEC CHECKSUMS:
   SigmobAd-iOS: 3812ab29f861d3158311ab9c9971174f75ffbaed
   UnityAds: 390144b2029ac9ce2ec81c3cfd0007686b59236a
 
-PODFILE CHECKSUM: 055c4fff747d1ee4076aaf0e1600f689be278b19
+PODFILE CHECKSUM: 86403e24802fd1906d17dc804b01fade848d8007
 
 COCOAPODS: 1.12.1

@@ -35,6 +35,8 @@ Pod::Spec.new do |s|
   s.source_files = 'CSJGroMore/Classes/**/*.{h,m}'
   s.public_header_files = 'Pod/Classes/**/*.h'
   
+  s.default_subspecs = 'Ads-Mediation-CN', 'ABUAdAdmobAdapter', 'ABUAdBaiduAdapter', 'ABUAdCsjAdapter', 'ABUAdGdtAdapter', 'ABUAdKlevinAdapter', 'ABUAdMintegralAdapter', 'ABUAdSigmobAdapter', 'ABUAdUnityAdapter'
+  
   # 1.GroMoreSDK核心库
   
   # Ads-Mediation-CN

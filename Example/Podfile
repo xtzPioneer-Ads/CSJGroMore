@@ -38,7 +38,8 @@ target 'ABUAdDemo' do
   use_frameworks!
 
   pod 'CSJGroMore', :path => '../'
-
+  pod 'CSJGroMore/ABUVisualDebug', :path => '../'
+  
   pod_for_ads
   
 end
@@ -48,6 +49,7 @@ target 'ABUAdDemoSwift' do
   use_frameworks!
 
   pod 'CSJGroMore', :path => '../'
+  pod 'CSJGroMore/ABUVisualDebug', :path => '../'
   
   pod_for_ads
 
